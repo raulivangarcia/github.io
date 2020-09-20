@@ -1,46 +1,10 @@
 <!doctype html>
 <html lang="en-us">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-  <title>Raul Garcia</title>
-<style>
-  div {
-  max-width: 960px;
-  margin: 0 auto;
-}
-.banner-box {
-    background-color: #000099;
-    border-radius: 25px 25px 25px 25px;
-    padding: 0.5em;
-    border: 1px solid#000099;
-    text-align: center;
-}
-h1 {
-  color:white;
-
-  }
-img {
-  width: 150px;
-  height: auto;
-  position: relative;
-  float: right;
-  margin-top: -100px;
-  margin-right: 10px;
-}
-footer {
-    background-color: #000099;
-    border-radius: 25px 25px 25px 25px;
-    padding: 0.5em;
-    border: 1px solid #000099;
-    color: white;
-    text-align: center;
-}
-a {
-  color: #d89611;
-}
-a:hover {
-  color: #f7bb4c;
-}
-</style>
+  <title>Raul Garcia WDD 230 Assignment Portal</title>
+ <link rel="stylesheet" href="css/index.css"/>
 </head>
 <header>
   <div class="banner-box">
@@ -49,9 +13,8 @@ a:hover {
 </header>
 <div>
 <body>
- 
  <h2>WDD 230: Assignment Portal</h2>
- <img class="Foto-img" src="https://cdn.glitch.com/ef603d38-bc99-40ba-8b9b-5fd819253ed1%2FIMG-8532.jpg?v=1600490445684" alt="my picture">
+ <img class="Foto-img" src="https://cdn.glitch.com/ef603d38-bc99-40ba-8b9b-5fd819253ed1%2FIMG-8532-1.jpg?v=1600560723822" alt="my picture">
  <hr>
  <nav>
    <ul>
@@ -73,13 +36,15 @@ a:hover {
  </nav>
 </body>
 <footer>
-  <p>&copy; 2020  | Raul Garcia  | Utah  | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
-    
+  <p>&copy; <span id="currentyear">2020</span>  | Raul Garcia  | Utah  | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+  </p>
+  <p> 
+    Last Updated:
     <span id="last-updated"></span>
   </p>
 </footer>
-<script scr="js/last.Modified.js"> </script>
-<script scr="js/currentdate.js"> </script>
+<script src="js/last-updated.js"></script>
+<script src="js/currentyear.js"></script>
 </div>
 
 </html> 
