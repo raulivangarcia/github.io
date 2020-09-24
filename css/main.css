@@ -11,6 +11,10 @@ div {
 }
 h1 {
   color:white;
+  font-family: 'PT Serif', serif;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 img {
   width: 150px;
