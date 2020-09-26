@@ -2,7 +2,7 @@ div {
   max-width: 800px;
   margin: 0 auto;
 }
-.banner-box {
+header {
     background-color: #000099;
     border-radius: 25px 25px 25px 25px;
     padding: 0.5em;
@@ -19,7 +19,6 @@ body {
 img {
   width: 150px;
   position: relative;
-  float: right;
   margin-top: -100px;
   margin-right: 10px;
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
