@@ -1,9 +1,14 @@
 body {
     font-family: ;
-    font-size: ;
+    font-size: 14px;
 
 }
 
+h1 {
+    color:white;
+    font-family: 'PT Serif', serif;
+  }
+  
 main {
     max-width: 767px;
     margin: 0 auto;
