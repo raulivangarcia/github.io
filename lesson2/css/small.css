@@ -28,3 +28,7 @@ main section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
 }
+header, footer {
+    text-align: center;
+    background-color: #000099;
+}
