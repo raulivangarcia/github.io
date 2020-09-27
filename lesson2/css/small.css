@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -9,7 +10,7 @@ h1 {
     font-family: 'PT Serif', serif;
   }
 
-header h1, h2 {
+header h2 {
     color:white;
     font-family: 'PT Serif', serif;
 }
@@ -42,7 +43,12 @@ header, footer {
     background-color: #000099;
     color: white;
 }
-
+footer a {
+    color: white;
+}
+a:hover {
+    color: #ffee00;
+  }
 main section img {
     display: block;
     width: 100%;
