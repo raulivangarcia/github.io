@@ -1,1 +1,2 @@
-let oLastModif = new Date(document.lastModified);
+let modified = new Date(document.lastModified);
+document.getElementById("last-updated").innerHTML = modified;
