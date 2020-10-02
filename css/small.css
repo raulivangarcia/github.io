@@ -33,6 +33,13 @@ footer {
 a {
   color: #3f0202;
 }
+footer a {
+  color: rgb(255, 187, 0);
+}
+
+footer a:hover {
+  color: yellow;
+}
 a:hover {
   color: #aa0606;
 }
