@@ -25,18 +25,18 @@ img {
 }
 
 footer {
-    background-color: #316fe2;
+    background-color: #000099;
     border-radius: 25px 25px 25px 25px;
     padding: 0.5em;
-    border: 1px solid#316fe2;
+    border: 1px solid #000099;
     color :white;
     text-align: center;
 }
 
-a {
-  color: #a70d0d;
+footer a{
+  color: white;
 }
 
 a:hover {
-  color: #d33939;
+  color: #8f9899;
 }
