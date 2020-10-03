@@ -102,10 +102,10 @@ nav a:hover {
 }
 
 .primary {
-  background-color: var( #0D2C54);
+  background-color: var(--primary-color);
 }
 .secondary {
-  background-color: var( #7FB800);
+  background-color: var(--secondary-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
