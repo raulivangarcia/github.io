@@ -78,19 +78,22 @@ p {
 
 nav {
   background-color: var(--nav-background-color);
-  line-height: 3em;
   text-align: center;
-  font-size: 1.2em;
 }
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-nav a {
-  padding:1em;
-  min-width: 70px;
+nav ul li a {
+	display: block;
+	color: var(--nav-link-color);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -115,20 +118,22 @@ nav a:hover {
   background-color: var(--accent3-color);
 }
 
+/* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
 	/* Flex *********************/
-		nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
+		nav ul { 
+      display: flex;
+   }
+    nav ul li { 
+      flex: 1 1 100%; 
+    }
 }
+
+/* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 	nav a {
 		font-size: 1.1rem;
 	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
+	
 }
