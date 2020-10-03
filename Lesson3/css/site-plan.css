@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto+Slab&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -13,7 +13,7 @@ Fonts are separated by a | */
 
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Merriweather', serif;
+  --heading-font: 'Roboto Slab', serif;
   --paragraph-font: 'Open Sans', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -34,8 +34,8 @@ html {
   background-color: var(--primary-color);
 }
 body {
-  max-width: 940px;
-  margin: 0 auto;
+  max-width: 960px;
+  margin: auto;
   background-color: white;
   padding: 1em;
 }
@@ -93,7 +93,8 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+  font-size: 1rem;
+  font-family: var(--paragraph-font);
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
