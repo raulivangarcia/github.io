@@ -2,4 +2,7 @@
     img {
         float: right;
     }
+    header footer {
+        border-radius: 25px 25px 25px 25px;
+    }
     }
