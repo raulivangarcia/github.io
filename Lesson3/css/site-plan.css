@@ -22,14 +22,14 @@ Fonts are separated by a | */
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: black;
-  --nav-link-color: #01486D;
+  --nav-link-color: #0D2C54;
   --nav-background-color: white;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #01486D;
+  --nav-hover-background-color: #F6511D;
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+
 html {
   background-color: var(--primary-color);
 }
@@ -76,18 +76,17 @@ p {
   height: 3em;
 }
 
-
-
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
 }
-nav > ul {
-  list-style-type: none;
-  display: flex;
-
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 nav a {
   padding:1em;
@@ -98,7 +97,6 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
 }
 
 .primary {
@@ -115,4 +113,22 @@ nav a:hover {
 }
 .accent3{
   background-color: var(--accent3-color);
+}
+
+@media only screen and (min-width: 37.5em) {
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+		nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+}
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
 }
