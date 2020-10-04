@@ -36,6 +36,7 @@ body {
   margin: 0 auto;
   background-color: white;
   padding: 1em;
+  font-size: 75%;
 }
 
 
@@ -123,7 +124,10 @@ nav a:hover {
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
 	/* Flex *********************/
-		nav ul { 
+    body {
+      font-size: 100%;
+    }
+    nav ul { 
       display: flex;
    }
     nav ul li { 
@@ -133,7 +137,10 @@ nav a:hover {
 
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
-	nav a {
+  body {
+    font-size: 125%;
+  }
+  nav a {
 		font-size: 1.1rem;
 	}
 	
