@@ -75,6 +75,9 @@ p {
   width: 20%;
   height: 3em;
 }
+.pallette {
+  margin: 0 auto;
+}
 
 nav {
   background-color: var(--nav-background-color);
