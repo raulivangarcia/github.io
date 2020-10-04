@@ -33,7 +33,7 @@ Fonts are separated by a | */
 html {
   background-color: var(--primary-color);
 }
-body {
+header main footer {
   max-width: 960px;
   margin: auto;
   background-color: white;
