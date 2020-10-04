@@ -33,11 +33,17 @@ Fonts are separated by a | */
 html {
   background-color: var(--primary-color);
 }
-header main footer {
+body {
   max-width: 960px;
   margin: auto;
   background-color: white;
   padding: 1em;
+}
+main header footer {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding 1em;
 }
 img {
   max-width: 500px;
