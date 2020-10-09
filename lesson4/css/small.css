@@ -1,0 +1,63 @@
+/*Small phone view************/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto+Slab&display=swap');
+
+header {
+	background-color: #00A6ED;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #0D2C54;
+}
+
+.motto {
+	letter-spacing: 1pt;
+	color: #fde400;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+nav {
+	margin: 0 auto;
+	background-color: tomato;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}

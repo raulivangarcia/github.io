@@ -5,38 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>preston site</title>
  <link rel="stylesheet" href="css/normalize.css">
- <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="css/small.css">
  <link rel="stylesheet" href="css/medium.css">
  <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
   <header>
-      <img class="Foto-img" src="imgages/weatherlogo.png" alt="weatherlogo">
-      <h1>What is the Weather today</h1>
-      <p>The Weather isn't too bad... get over it!</p>
+      <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
+      <section class="headings">
+        <h1>What's the Weather today?</h1>
+      <div class="motto">The Weather isn't too bad... get over it!</div>
+    </section>
 </header>
 
   <nav>
-   <ul>
-     <li>
-       <a href="#">Home</a>
-     </li>
-     <li>
-       <a href="lesson4/preston-4.html">Preston</a>
-    </li>
-    <li>
-      <a href="#">Fish Haven</a> 
-      </li>
-    <li>
-      <a href="#">Soda Springs</a> 
-      </li>
-    <li>
-      <a href="#">Storm Center</a> 
-      </li>
-    <li>
-       <a href="#">Gallery</a> 
-      </li>
+   <ul class="navigation responsive">
+     <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+     <li><a href="#">Home</a></li>
+     <li><a href="lesson4/preston-4.html">Preston</a></li>
+     <li><a href="#">Fish Haven</a></li>
+     <li><a href="#">Soda Springs</a></li>
+     <li><a href="#">Storm Center</a></li>
+     <li><a href="#">Gallery</a></li>
    </ul>
 </nav>
 <main>
@@ -54,5 +44,6 @@
 </footer>
 <script src="js/date.js"></script>
 <script src="js/currentyear.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html> 
