@@ -1,5 +1,5 @@
 /*Small phone view************/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
 
 header {
 	background-color: #00A6ED;
@@ -18,23 +18,28 @@ header img {
 	display: flex;
 	flex-direction: column;
 }
-
+h1 {
+    font-family: 'Roboto Slab', serif; 
+}
 .headings h1 {
 	font-size: 1.6rem;
     margin: 0 0 0 17px;
     color: #0D2C54;
 }
-
+p {
+    font-family: 'Open Sans', sans-serif; 
+}
 .motto {
 	letter-spacing: 1pt;
 	color: #fde400;
 	margin-left: 20px;
-	font-size: .9rem;
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
 	margin: 0 auto;
-	background-color: tomato;
+	background-color: #ffb400;
 }
 .navigation {
 	list-style: none;
@@ -48,16 +53,29 @@ nav {
 }
 .navigation a {
 	display: block;
-	padding: 0.75rem;
+    padding: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	text-decoration: none;
-	color: black;
-	font-weight: 700;
+	color: #0d2c54;
+    font-weight: 700;
+    border-top: 1px solid rbga(0,0,0,0.3);
 }
+nav ul li.active a {
+      background-color:#00A6ED;
+  }
 .navigation a:hover {
 	color: white;
-	background-color: black;
+	background-color: #0d2c54;
 }
 .responsive li {
 	display: block;
 }
+footer {
+	background-color: #00A6ED;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+  
