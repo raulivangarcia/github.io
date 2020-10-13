@@ -1,0 +1,96 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto+Slab&display=swap');
+
+html {
+  background-color: #0D2C54;
+}
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+  font-size: 75%;
+}
+
+
+img {
+  max-width: 500px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: white;
+  background-color: #00A6ED;
+}
+header > h1, header > h2 {
+  color: black;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  padding: 1em;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 20%;
+  height: 3em;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #0D2C54;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+nav a:link, nav a:visited {
+  color: #0D2C54;
+}
+nav a:hover {
+  color: #F6511D;
+}
+
+.primary {
+  background-color: #0D2C54;;
+}
+.secondary {
+  background-color:  #7FB800;
+}
+.accent1 {
+  background-color: #00A6ED;
+}
+.accent2{
+  background-color: #FFB400;
+}
+.accent3{
+  background-color: #F6511D;
+}

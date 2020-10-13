@@ -1,0 +1,10 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+    body {
+      font-size: 1.25rem;
+    }
+    nav a {
+          font-size: 1.1rem;
+      }
+      
+  }
