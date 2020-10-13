@@ -1,19 +1,17 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Roboto+Slab&display=swap');
 
 html {
   background-color: #0D2C54;
 }
+
 body {
   max-width: 960px;
   margin: 0 auto;
   background-color: white;
   padding: 1em;
-  font-size: 75%;
+  font-size: 1rem;
 }
-
 
 img {
   max-width: 500px;
@@ -21,6 +19,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
   color: black;
+  text-align: center;
 }
 header {
   padding: 1em;
@@ -36,6 +35,9 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: black;
   padding: 1em;
+}
+.example {
+  text-align: center;
 }
 
 .colors {
@@ -80,7 +82,8 @@ nav a:hover {
 }
 
 .primary {
-  background-color: #0D2C54;;
+  color: white;
+  background-color: #0D2C54;
 }
 .secondary {
   background-color:  #7FB800;
