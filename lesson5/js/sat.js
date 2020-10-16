@@ -4,4 +4,4 @@ if (d.getDay(5))
 
 display:block
 
-document.querySelector('.message').
+document.querySelector('.message').style.display=block;
