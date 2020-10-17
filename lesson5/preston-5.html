@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-  <aside style="display:block;">Saturday=Preston Pancakes in the Park! 9:00 a.m. at the city park pavillion.</aside>
+  <aside id="message">
+    <h2>Saturday=Preston Pancakes in the Park! 9:00 a.m. at the city park pavillion.</h2>
+  </aside>
   <header>
       <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
       <section class="headings">
@@ -41,17 +43,43 @@
     <section class="weathersummary">
         <h3>Weather Summary</h3>
         <hr>
-        <p>Currently: Sunny</p>
-        <p>High: 62&deg;</p>
-        <p>Wind Chill: 59&deg;</p>
-        <p>Humidity: 20%</p>
-        <p>Wind Speed: 20 MPH</p>
-    </section>
+        <section class="categories">
+          <ul>
+            <li>Currently:</li>
+            <li>High:</li>
+            <li>Wind Chill:</li>
+            <li>Humidity:</li>
+            <li>Wind Speed:</li>
+          </ul>
+
+        </section>
+        <section class="numbers">
+          <ul>
+            <li>Sunny</li>
+            <li>62&degF</li>
+            <li>59&degF</li>
+            <li>20%</li>
+            <li>20 MPH</li>
+          </ul>
+        </section>
 </div>
 <div class="forecast">
   <h2>5 day forcast</h2>
-<img class="forecast-pic" src="images/5day.jpg" alt="5-day forecast"></div>
-<div class="content">article</div>
+    <ul>
+      <li><strong>Fri</strong> <img src="images/Sunny.jpg" alt="sunny">62&degF</li>
+      <li><strong>Sat</strong><img src="images/cloudy.jpg" alt="windy">57&degF</li>
+      <li><strong>Sun</strong><img src="images/rain.jpg" alt="rainy">48&degF</li>
+      <li><strong>Mon</strong><img src="images/cloudy.jpg" alt="windy">44&degF</li>
+      <li><strong>Tues</strong><img src="images/Sunny.jpg" alt="sunny">52&degF</li>
+    </ul>
+</div>
+<div class="news">
+
+  <h2>Record temperatures affects farming</h2>
+<p>Article goes here</p> 
+<img src="images/prestonfield2.jpg" alt="farming">
+
+</div>
 <div class="content">contact information</div>
 </main>
 <footer>
@@ -63,5 +91,6 @@
 <script src="js/currentdate.js"></script>
 <script src="js/currentyear.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/sat.js"></script>
 </body>
 </html> 

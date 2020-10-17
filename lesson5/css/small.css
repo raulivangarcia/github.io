@@ -35,7 +35,7 @@ p {
 }
 .motto {
 	letter-spacing: 1pt;
-	color: white;
+	color: #0d2c54;
 	margin-left: 20px;
     font-size: .9rem;
     font-family: 'Open Sans', sans-serif;
@@ -90,25 +90,82 @@ footer {
 .hero-ph {
 	margin: 10px auto;
 }
-img {
+.herodiv img {
 	width: 100%;
 }
+/* weather summary box*/
 
 .weathersummary {
+	max-width: 100%;
 	background-color: #ffb400;
-	padding: .8rem 1.5rem;
+	padding: 1rem 1rem;
 	border: 1px solid #333;
 	box-shadow: 0 0 20px rgb(71, 71, 71);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: .5em;
 }
-.forecast {
-	width: 300px;
-	height: 100px;
-	background-color: #0d2c54;
-	padding: 10px;
-	margin: 0 auto;
+
+.weathersummary h3 {
+	grid-column: span 2;
+	justify-self: center;
+	margin: 0;
 }
-.forecast-pic {
+.weathersummary section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.categories {
+	grid-column: 1;
+	grid-row: 2;
+}
+.numbers {
+	grid-column: 2;
+	grid-row: 2;
+}
+section.categories ul li {
+	text-align: right;
+}
+/*pancake message*/
+#message {
 	width: 100%;
-	height: auto;
+	height: 80px;
+	background-color: #96d40f;
+	text-align: center;
+	padding: 5px 0;
+	border-bottom: 5px solid white;
+	max-width: 960px;
+	margin: 0 auto;
+	
 }
-  
+
+/* 5 day forecast*/
+.forecast {
+	background-color: #00A6ED;
+	border: 1px solid #333;
+	text-align: center;
+}
+.forecast h2 {
+	color: #0D2C54;
+}
+.forecast ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+}
+.forecast ul li img {
+	display: block;
+	width: 80px;
+	padding: 0 20px;
+}
+/*article*/
+.news {
+	background-color: #a1cbe7;
+	border: 1px solid #333;
+}
+.news img {
+
+
+}
