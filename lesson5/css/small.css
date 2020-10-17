@@ -75,6 +75,10 @@ nav ul li.active a {
 .responsive li {
 	display: block;
 }
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
 footer {
 	background-color: #00A6ED;
 	padding: 5px 0;
@@ -145,6 +149,7 @@ section.categories ul li {
 	background-color: #00A6ED;
 	border: 1px solid #333;
 	text-align: center;
+	font-size: 1.25rem;
 }
 .forecast h2 {
 	color: #0D2C54;
@@ -162,10 +167,11 @@ section.categories ul li {
 }
 /*article*/
 .news {
-	background-color: #a1cbe7;
-	border: 1px solid #333;
+	/*background-color: #a1cbe7;
+	border: 1px solid #333;*/
 }
 .news img {
-
-
+}
+.contact img {
+	width: 80%;
 }
