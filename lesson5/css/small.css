@@ -132,7 +132,7 @@ section.categories ul li {
 	text-align: right;
 }
 /*pancake message*/
-#message {
+.message {
 	width: 100%;
 	height: 80px;
 	background-color: #96d40f;
@@ -156,22 +156,36 @@ section.categories ul li {
 }
 .forecast ul {
 	list-style: none;
-	padding: 0;
+	padding: 10px 10px;
 	margin: 0 auto;
 	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 .forecast ul li img {
 	display: block;
 	width: 80px;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 /*article*/
 .news {
-	/*background-color: #a1cbe7;
-	border: 1px solid #333;*/
+	padding: 25px 0;
 }
 .news img {
+	float: right;
+	padding: 0 0 0 10px; 
+}
+.contact {
+	display: flex;
 }
 .contact img {
-	width: 100%;
+	width: 200px;
 }
+.address {
+	padding: 0 0 0 20px;
+} 
+.social img {
+	width: 50px;
+	margin-left: 40px;
+}	
+	
