@@ -1,0 +1,191 @@
+/*Small phone view************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+
+header {
+	background-color: #00A6ED;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+    font-family: 'Roboto Slab', serif; 
+}
+.headings h1 {
+	font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    color: #0D2C54;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+p {
+    font-family: 'Open Sans', sans-serif; 
+}
+.motto {
+	letter-spacing: 1pt;
+	color: #0d2c54;
+	margin-left: 20px;
+    font-size: .9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	margin: 0 auto;
+	background-color: #ffb400;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+    padding: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	text-decoration: none;
+	color: #0d2c54;
+    font-weight: 700;
+    border-top: 1px solid rbga(0,0,0,0.3);
+}
+nav ul li.active a {
+    background-color:#00A6ED;
+  }
+.navigation a:hover {
+	color: white;
+	background-color: #0d2c54;
+}
+.responsive li {
+	display: block;
+}
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
+footer {
+	background-color: #00A6ED;
+	padding: 5px 0;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+	line-height: 1.5;
+}
+.herodiv {
+	position: relative;
+}
+
+.hero-ph {
+	margin: 10px auto;
+}
+.herodiv img {
+	width: 100%;
+}
+/* weather summary box*/
+
+.weathersummary {
+	max-width: 100%;
+	background-color: #ffb400;
+	padding: 1rem 1rem;
+	border: 1px solid #333;
+	box-shadow: 0 0 20px rgb(71, 71, 71);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: .5em;
+}
+
+.weathersummary h3 {
+	grid-column: span 2;
+	justify-self: center;
+	margin: 0;
+}
+.weathersummary section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.categories {
+	grid-column: 1;
+	grid-row: 2;
+}
+.numbers {
+	grid-column: 2;
+	grid-row: 2;
+}
+section.categories ul li {
+	text-align: right;
+}
+/*pancake message*/
+.message {
+	width: 100%;
+	height: 80px;
+	background-color: #96d40f;
+	text-align: center;
+	padding: 5px 0;
+	border-bottom: 5px solid white;
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+/* 5 day forecast*/
+.forecast {
+	background-color: #00A6ED;
+	border: 1px solid #333;
+	text-align: center;
+	font-size: 1.25rem;
+}
+.forecast h2 {
+	color: #0D2C54;
+}
+.forecast ul {
+	list-style: none;
+	padding: 10px 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.forecast ul li img {
+	display: block;
+	width: 80px;
+	padding: 0 10px;
+}
+/*article*/
+.news {
+	padding: 25px 0;
+}
+.news img {
+	float: right;
+	padding: 0 0 0 10px; 
+}
+.contact {
+	display: flex;
+}
+.contact img {
+	width: 200px;
+}
+.address {
+	padding: 0 0 0 20px;
+} 
+.social img {
+	width: 50px;
+	margin-left: 40px;
+}	
+	
