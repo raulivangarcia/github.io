@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Community weather for Preston, Idaho.">
+  <title>preston site</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+  <div class="message">
+    <h2>Saturday=Preston Pancakes in the Park! 9:00 a.m. at the city park pavillion.</h2>
+  </div>
+  <header>
+      <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
+      <section class="headings">
+        <h1>Idaho Weather</h1>
+      <div class="motto">Bringing communities together through weather and local news.</div>
+    </section>
+</header>
+
+  <nav>
+   <ul class="navigation responsive">
+     <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+     <li><a href="#">Home</a></li>
+     <li class="active"><a href="preston-5.html">Preston</a></li>
+     <li class="#"><a href="#">Fish Haven</a></li>
+     <li class="#"><a href="#">Soda Springs</a></li>
+     <li class="#"><a href="#">Storm Center</a></li>
+     <li class="#"><a href="#">Gallery</a></li>
+   </ul>
+</nav>
+<main>
+<h2>Preston Idaho</h2>
+<div class="herodiv">
+    <div class="hero-ph">
+        <img src="images/prestonriver1.jpg" alt="Preston town">
+    </div>
+    <section class="weathersummary">
+        <h3>Weather Summary</h3>
+        <section class="categories">
+          <ul>
+            <li>Currently:</li>
+            <li>High:</li>
+            <li>Wind Chill:</li>
+            <li>Humidity:</li>
+            <li>Wind Speed:</li>
+          </ul>
+        </section>
+        <section class="numbers">
+          <ul>
+            <li>Sunny</li>
+            <li>62&degF</li>
+            <li>59&degF</li>
+            <li>20%</li>
+            <li>20 MPH</li>
+          </ul>
+        </section>
+</div>
+<div class="forecast">
+  <h2>5 day forecast</h2>
+    <ul>
+      <li><strong>Fri</strong> <img src="images/sunny.jpg" alt="sunny">62&degF</li>
+      <li><strong>Sat</strong><img src="images/cloudy.jpg" alt="windy">57&degF</li>
+      <li><strong>Sun</strong><img src="images/rain.jpg" alt="rainy">48&degF</li>
+      <li><strong>Mon</strong><img src="images/cloudy.jpg" alt="windy">44&degF</li>
+      <li><strong>Tues</strong><img src="images/sunny.jpg" alt="sunny">52&degF</li>
+    </ul>
+</div>
+<div class="news">
+<img src="images/prestonfield2.jpg" alt="farming">
+  <h2>Record temperatures affect farming</h2>
+<p>Temperature is a primary factor affecting the rate of plant development. Warmer temperatures expected with climate change and the potential for more extreme temperature events will impact plant productivity. Pollination is one of the most sensitive phenological stages to temperature extremes across all species and during this developmental stage temperature extremes would greatly affect production.</p>
+
+<p>Few adaptation strategies are available to cope with temperature extremes at this developmental stage other than to select for plants which shed pollen during the cooler periods of the day or are indeterminate so flowering occurs over a longer period of the growing season.</p> 
+
+</div>
+<br>
+<h2>Contact information</h2>
+<div class="contact">
+<img src="images/idahomap.JPG" alt="map">
+<div class="address">
+  <h3>&#128205;</h3>
+  <p>1250 E 1200 N </p>
+  <p>Preston, ID</p>
+  <h3>&#128222;</h3>
+  <p>208-520-4520</p>
+  
+</div>
+<div class="social">
+  <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook logo"></a>
+  <a href="https://www.instagram.com"><img src="images/insta.png" alt="Instagram logo"></a>
+  <a href="https://www.youtube.com"><img src="images/you.png" alt="Youtube logo"></a>
+</div>
+</main>
+</div>
+<footer>
+  <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia |   
+  <br>
+  <span id="currentdate"></span>
+  </p>
+</footer>
+<script src="js/currentdate.js"></script>
+<script src="js/currentyear.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/sat.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body>
+</html> 
