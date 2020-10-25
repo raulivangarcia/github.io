@@ -1,9 +1,8 @@
 /*Small phone view************/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');*/
 
 header {
 	background-color: #00A6ED;
-	padding: 5px 0;
 	display: flex;
 	align-items:center;
 	justify-content:center;

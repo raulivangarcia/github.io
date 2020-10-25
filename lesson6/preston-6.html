@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Community weather for Preston, Idaho.">
-  <title>preston site</title>
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/small.css">
-  <link rel="stylesheet" href="css/medium.css">
-  <link rel="stylesheet" href="css/large.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Community weather for Preston, Idaho.">
+    <title>Idaho Weather | Preston, Idaho</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
 <body>
   <div class="message">
     <h2>Saturday=Preston Pancakes in the Park! 9:00 a.m. at the city park pavillion.</h2>
@@ -19,9 +19,9 @@
       <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
       <section class="headings">
         <h1>Idaho Weather</h1>
-      <div class="motto">Bringing communities together through weather and local news.</div>
-    </section>
-</header>
+        <p>Bringing communities together through weather and local news.</p>
+      </section>
+  </header>
 
   <nav>
    <ul class="navigation responsive">
@@ -33,7 +33,7 @@
      <li class="#"><a href="#">Storm Center</a></li>
      <li class="#"><a href="#">Gallery</a></li>
    </ul>
-</nav>
+  </nav>
 <main>
 <h2>Preston Idaho</h2>
 <div class="herodiv">
@@ -59,12 +59,13 @@
         <section class="numbers">
           <ul>
             <li>Sunny</li>
-            <li>62&degF</li>
+            <li><span id="currenttemp">62</span>&degF</li>
             <li>59&degF</li>
             <li>20%</li>
-            <li>20 MPH</li>
+            <li><span id="windspeed">20</span> MPH</li>
           </ul>
         </section>
+    </section>
 </div>
 <div class="forecast">
   <h2>5 day forecast</h2>
@@ -80,8 +81,8 @@
   <picture>
     <source media="(max-width: 550px)" srcset="images/prestonfieldSmall.jpg">
     <source media="(max-width: 650px)" srcset="images/prestonfieldMedium.jpg">
-<img src="images/prestonfield2.jpg" alt="farming">
-    </picture>
+    <img src="images/prestonfield2.jpg" alt="farming">
+  </picture>
   <h2>Record temperatures affect farming</h2>
 <p>Temperature is a primary factor affecting the rate of plant development. Warmer temperatures expected with climate change and the potential for more extreme temperature events will impact plant productivity. Pollination is one of the most sensitive phenological stages to temperature extremes across all species and during this developmental stage temperature extremes would greatly affect production.</p>
 
@@ -108,8 +109,8 @@
 </main>
 </div>
 <footer>
-  <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia |   
-  <br>
+  <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia</p>   
+  <p>
   <span id="currentdate"></span>
   </p>
 </footer>
@@ -119,5 +120,6 @@
 <script src="js/sat.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontload.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html> 
