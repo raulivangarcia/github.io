@@ -1,2 +1,2 @@
 WebFont.load({
-    google: {families: ['robotoslab','opensans']}});
+    google: {families: ['Roboto Slab','Open Sans']}});

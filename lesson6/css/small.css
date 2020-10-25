@@ -11,18 +11,20 @@ header {
 header img {
 	width: 80px;
 	height: auto;
+	padding: 20px;
 }
 
 .headings {
 	display: flex;
 	flex-direction: column;
+	color: #0d2c54;
+	line-height: 1.2em;
 }
 h1 {
     font-family: 'Roboto Slab', serif; 
 }
 .headings h1 {
 	font-size: 1.6rem;
-    margin: 0 0 0 17px;
     color: #0D2C54;
 }
 h2 {
@@ -31,13 +33,6 @@ h2 {
 }
 p {
     font-family: 'Open Sans', sans-serif; 
-}
-.motto {
-	letter-spacing: 1pt;
-	color: #0d2c54;
-	margin-left: 20px;
-    font-size: .9rem;
-    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
