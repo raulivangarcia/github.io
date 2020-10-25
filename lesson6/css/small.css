@@ -38,6 +38,10 @@ p {
 nav {
 	margin: 0 auto;
 	background-color: #ffb400;
+	border-top: solid 1px gray;
+}
+nav ul {
+	margin: 0;
 }
 .navigation {
 	list-style: none;
@@ -57,7 +61,6 @@ nav {
 	text-decoration: none;
 	color: #0d2c54;
     font-weight: 700;
-    border-top: 1px solid rbga(0,0,0,0.3);
 }
 nav ul li.active a {
     background-color:#00A6ED;
@@ -132,7 +135,6 @@ section.categories ul li {
 	background-color: #96d40f;
 	text-align: center;
 	padding: 5px 0;
-	border-bottom: 5px solid white;
 	max-width: 960px;
 	margin: 0 auto;
 	
@@ -154,7 +156,7 @@ section.categories ul li {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	
 }
 .forecast ul li img {
 	display: block;
@@ -166,14 +168,15 @@ section.categories ul li {
 	padding: 25px 0;
 }
 .news img {
-	float: right;
 	padding: 0 0 0 10px; 
 }
 .contact {
 	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 .contact img {
-	width: 200px;
+	width: 300px;
 }
 .address {
 	padding: 0 0 0 20px;

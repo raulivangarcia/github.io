@@ -36,5 +36,8 @@
 		position: absolute;
 		opacity: .9;
 	}
+	.news img {
+		float: right;		 
+	}
 	
 }
