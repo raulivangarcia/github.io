@@ -38,6 +38,17 @@
 	.weathersummary {
 		position: absolute;
 		opacity: .9;
+		top: 40px;
+		right: 20px;
+
 	}
+	.forecast {
+		background-color: #00A6ED;
+		border: 1px solid #333;
+		text-align: center;
+		font-size: 1.25rem;
+		display: block;
+	}
+	
 	
 }

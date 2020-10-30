@@ -63,7 +63,6 @@ nav {
 	text-decoration: none;
 	color: #0d2c54;
     font-weight: 700;
-    border-top: 1px solid rbga(0,0,0,0.3);
 }
 nav ul li.active a {
     background-color:#00A6ED;
@@ -78,6 +77,7 @@ nav ul li.active a {
 
 ul {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 footer {
 	background-color: #00A6ED;
@@ -134,11 +134,10 @@ section.categories ul li {
 /*pancake message*/
 .message {
 	width: 100%;
-	height: 80px;
+	height: 60px;
 	background-color: #96d40f;
 	text-align: center;
 	padding: 5px 0;
-	border-bottom: 5px solid white;
 	max-width: 960px;
 	margin: 0 auto;
 	
@@ -146,10 +145,7 @@ section.categories ul li {
 
 /* 5 day forecast*/
 .forecast {
-	background-color: #00A6ED;
-	border: 1px solid #333;
-	text-align: center;
-	font-size: 1.25rem;
+	display: none;
 }
 .forecast h2 {
 	color: #0D2C54;
@@ -160,7 +156,7 @@ section.categories ul li {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	
 }
 .forecast ul li img {
 	display: block;
@@ -171,18 +167,17 @@ section.categories ul li {
 .news {
 	padding: 25px 0;
 }
-.news img {
-	float: right;
-	padding: 0 0 0 10px; 
-}
+
 .contact {
 	display: flex;
+	justify-content: center;
 }
 .contact img {
 	width: 200px;
 }
 .address {
 	padding: 0 0 0 20px;
+	text-align: center;
 } 
 .social img {
 	width: 50px;

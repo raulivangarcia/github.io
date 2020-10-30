@@ -28,5 +28,9 @@
         opacity: .9;
         top: 40px;
 	    left: 700px;
+    }
+    .news img {
+		float: right;
+		padding: 0 0 0 10px; 
 	}
 }
