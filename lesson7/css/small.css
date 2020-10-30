@@ -1,0 +1,115 @@
+/*Small phone view************/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');*/
+
+header {
+	background-color: #00A6ED;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+	padding: 20px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	color: #0d2c54;
+	line-height: 1.2em;
+}
+h1 {
+    font-family: 'Roboto Slab', serif; 
+}
+.headings h1 {
+	font-size: 1.6rem;
+    color: #0D2C54;
+}
+h2 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+p {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+nav {
+	margin: 0 auto;
+	background-color: #ffb400;
+	border-top: solid 1px gray;
+}
+nav ul {
+	margin: 0;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+    padding: 0.75rem;
+    font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	text-decoration: none;
+	color: #0d2c54;
+    font-weight: 700;
+}
+nav ul li.active a {
+    background-color:#00A6ED;
+  }
+.navigation a:hover {
+	color: white;
+	background-color: #0d2c54;
+}
+.responsive li {
+	display: block;
+}
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*image effects*/
+
+main {
+	max-width: 100%;
+}
+
+.image-gallery img[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+    filter: blur(.2em);
+}
+.image-gallery img {
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+figcaption {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color:  #0d2c54;
+}
+
+/*footer*/
+
+  footer {
+	color:  #0d2c54;
+	background-color: #00A6ED;
+	padding: 5px 0;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+	line-height: 1.5;
+}
+
+	
