@@ -21,13 +21,12 @@
         margin: 0 1em;
     }
     .image-gallery figure {
-        box-shadow: 0 0 15px -5px black;
+        box-shadow: 0 0 15px 0px black;
     }
 	figcaption {
         text-align: center;     
     }
     .image-gallery figure:hover {
-        margin: 1em .5em;
         box-shadow: 0 0 50px #333;
     }
 }
