@@ -1,9 +1,9 @@
 /*Medium viewport*************/
 
 @media only screen and (min-width: 37.5em) {
-    body {
+    main, footer {
         max-width: 960px;
-        margin: 0 auto;
+        margin: 10px auto 0;
     }
     header img {
 		width: 100px;
@@ -28,10 +28,7 @@
 	.navigation li:first-child {
 		display: none;
     }
-    footer {
-        max-width: 960px;
-        margin: 0 auto;
-	}
+    
 	.weathersummary {
 		position: absolute;
 		opacity: .9;
@@ -45,4 +42,13 @@
 		float: right;		 
 	}
 	
+	.contact {
+		display: flex;
+		justify-content: space-evenly;
+		text-align: center;
+		flex-direction: row;
+	}
+	.contact img {
+		margin: 0;
+	}
 }

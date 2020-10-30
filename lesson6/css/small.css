@@ -1,5 +1,9 @@
 /*Small phone view************/
 /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');*/
+main, footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 header {
 	background-color: #00A6ED;
@@ -30,6 +34,10 @@ h1 {
 h2 {
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
+
+}
+h4 {
+	margin: 10px;
 }
 p {
     font-family: 'Open Sans', sans-serif; 
@@ -131,11 +139,9 @@ section.categories ul li {
 /*pancake message*/
 .message {
 	width: 100%;
-	height: 80px;
 	background-color: #96d40f;
 	text-align: center;
 	padding: 5px 0;
-	max-width: 960px;
 	margin: 0 auto;
 	
 }
@@ -169,21 +175,22 @@ section.categories ul li {
 	padding: 25px 0;
 }
 .news img {
-	padding: 0 0 0 10px; 
+	padding: 0 0 0 10px;
+	margin: auto; 
 }
 .contact {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	flex-direction: column-reverse;
 }
+
 .contact img {
 	width: 300px;
+	margin: 0 auto;
 }
-.address {
-	padding: 0 0 0 20px;
-} 
 .social img {
 	width: 50px;
-	margin-left: 40px;
+	margin-left: 30px;
 }	
 	

@@ -10,10 +10,6 @@
 		font-size: 3rem;
 	}
     
-    footer {
-        max-width: 960px;
-        margin: 0 auto;
-    }
     .weathersummary {
 		position: absolute;
         opacity: .9;
