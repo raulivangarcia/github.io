@@ -146,6 +146,7 @@ section.categories ul li {
 	border: 1px solid #333;
 	text-align: center;
 	font-size: 1.25rem;
+	display: none;
 }
 .forecast h2 {
 	color: #0D2C54;

@@ -35,6 +35,11 @@
 	.weathersummary {
 		position: absolute;
 		opacity: .9;
+		top: 40px;
+	    right: 20px;
+	}
+	.forecast {
+		display: block;
 	}
 	.news img {
 		float: right;		 

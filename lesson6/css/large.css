@@ -17,7 +17,5 @@
     .weathersummary {
 		position: absolute;
         opacity: .9;
-        top: 40px;
-	    left: 700px;
 	}
 }
