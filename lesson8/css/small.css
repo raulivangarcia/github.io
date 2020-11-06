@@ -27,7 +27,7 @@ h1 {
 	font-size: 1.6rem;
     color: #0D2C54;
 }
-h2 {
+h2, h3, h4 {
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
 }
@@ -112,4 +112,21 @@ figcaption {
 	line-height: 1.5;
 }
 
-	
+/*Storm Center form*/
+
+.formbox {
+font-family: 'Open Sans', sans-serif; 
+display: grid;
+justify-content: space-between;
+max-width: 300px;
+width: 100%;
+margin: 0 auto;
+background-color: #0D2C54;
+color: white;
+padding: 15px 15px;
+}
+
+.formbox h3{
+	text-align: center;
+}
+

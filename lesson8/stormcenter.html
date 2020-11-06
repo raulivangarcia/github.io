@@ -34,29 +34,42 @@
         </ul>
     </nav>
     <main>
-        <br><br>
+        <h2>Storm Center-Report Weather</h2>
+        <div class="formbox">
         <h3>Contact Information</h3>
         <!-- Form full name -->
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required minlength="5" size="20">
+        <label for="name">Full Name*</label>
+        <input type="text" id="name" name="name" pattern="[A-Za-z ]{5,}"  minlength="5" size="20" required>
         <br><br>
         <!-- Form email -->
-        <label for="email">Email:
-            <input type="email" name="email" placeholder="user@email.com"></label>
+        <label for="email">Email</label>
+            <input type="email" name="email" placeholder="user@email.com">
         <br><br>
         <!-- Form phone number -->
-        <label for="phone">Phone number:</label>
+        <label for="phone">Phone number*</label>
         <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####"
             required>
         <br><br>
         <!-- Form zip code -->
-        <label for="zip">Zip Code:</label>
-        <input type="number" id="zip" name="zipcode" maxlength="5">
+        <label for="zip">Zip Code*</label>
+        <input type="number" id="zip" name="zipcode" maxlength="5" required>
         <br><br>
         <h3>Storm Report</h3>
         <!-- Form storm date -->
         <label for="stormdate">Storm Date:</label>
-        <input type="date" id="stormdate" name="stormdate" value="2020-11-01" min="2018-01-01" max="2025-12-31">
+        <input type="date" id="stormdate" name="stormdate" value="2020-11-05" min="2018-01-01" max="2025-12-31">
+        <br><br>
+        <!-- Form storm region -->
+        <label for="stormtype">Storm Type:</label>
+        <input list="stormlist" name="stormtype" id="stormtype">
+        <datalist id="stormlist">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+            <option value="Other"></option>
+        </datalist>
         <br><br>
         <!-- Form storm severity (1-10) -->
         <label for="severity">Storm Severity</label>
@@ -91,8 +104,10 @@
         </textarea>
         <br><br>
         <!-- Form submit button -->
-        <input type="submit" value="Submit">
-<br><br>
+        <form action="thanks.html" method="get">
+            <input type="submit" value="Submit"></form>
+        <br><br>
+    </div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia</p>
