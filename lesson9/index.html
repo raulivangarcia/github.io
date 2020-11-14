@@ -25,17 +25,22 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="../index.html">Home</a></li>
-            <li class="#"><a href="preston-5.html">Preston</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="#"><a href="../lesson5/preston-5.html">Preston</a></li>
             <li class="#"><a href="#">Fish Haven</a></li>
             <li class="#"><a href="#">Soda Springs</a></li>
-            <li class="#"><a href="#">Storm Center</a></li>
-            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+            <li class="#"><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="#"><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
         <div class="hero-ph">
-            <img src="images/prestonfarm1.jpg" alt="Preston town">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/prestonfarm1.jpg">
+                <source media="(max-width: 750px)" srcset="images/prestonfarm1.jpg">
+                <source media="(min-width: 751px)" srcset="images/prestonfarm1.jpg">
+                <img src="images/prestonfarm1.jpg" alt="Preston town">
+            </picture>
         </div>
         <h2>Fall is Here</h2>
         <article>

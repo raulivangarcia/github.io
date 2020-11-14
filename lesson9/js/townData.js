@@ -6,7 +6,8 @@ fetch(requestURL)
     .then(function (jsonObject) {
         //console.table(jsonObject);  // temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
-        towns.forEach(town => {
+        const idaho = towns.filter(town => (town.name == 'Fish Haven' || town.name == 'Preston' || town.name == 'Soda Springs'))
+        idaho.forEach(town => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let h3 = document.createElement('h3');

@@ -77,6 +77,10 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.hero-ph {
+	margin: 10px auto;
+}
+
 /*image effects*/
 
 main {
@@ -112,8 +116,6 @@ figcaption {
 	line-height: 1.5;
 }
 
-/* article */
+/*Storm Center form*/
 
-
-/* town cards */
 

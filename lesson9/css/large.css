@@ -1,0 +1,32 @@
+@media only screen and (min-width: 60em) {
+    header {
+        margin: 0 auto;
+    }
+    header img {
+        width: 150px;
+    }
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+    
+    footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin: 0 1em;
+    }
+    .image-gallery figure {
+        box-shadow: 0 0 15px 0px black;
+    }
+	figcaption {
+        text-align: center;     
+    }
+    .image-gallery figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+}
