@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -9,6 +9,7 @@ fetch(requestURL)
         const idaho = towns.filter(town => (town.name == 'Fish Haven' || town.name == 'Preston' || town.name == 'Soda Springs'))
         idaho.forEach(town => {
             let card = document.createElement('section');
+            let data = document.createElement('div');
             let h2 = document.createElement('h2');
             let h3 = document.createElement('h3');
             let year = document.createElement('p');
@@ -22,15 +23,16 @@ fetch(requestURL)
             year.innerHTML = `Founded: ${town.yearFounded}`;
             pop.innerHTML = `Population: ${town.currentPopulation}`;
             rain.innerHTML = `Average Rainfall: ${town.averageRainfall}`;
-            image.setAttribute('src', 'images/${town.photo}');
+            image.setAttribute('src', `images/${town.photo}`);
             image.setAttribute('alt', `Picture of ${town.name}`);
             //actually add the content to the container
             
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(year);
-            card.appendChild(pop);
-            card.appendChild(rain);         
+            card.appendChild(data);
+            data.appendChild(h2);
+            data.appendChild(h3);
+            data.appendChild(year);
+            data.appendChild(pop);
+            data.appendChild(rain);         
             card.appendChild(image);
 
             document.querySelector('.townData').appendChild(card);

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="01width=device-width, initial-scale=1">
     <meta name="description" content="Community weather for Preston, Idaho.">
     <title>Idaho Weather | Preston, Idaho</title>
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -16,10 +16,10 @@
 <body>
     <header>
         <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
-        <section class="headings">
+        <div class="headings">
             <h1>Idaho Weather</h1>
             <p>Bringing communities together through weather and local news.</p>
-        </section>
+        </div>
     </header>
 
     <nav>
@@ -36,14 +36,15 @@
     <main>
         <div class="hero-ph">
             <picture>
-                <source media="(max-width: 600px)" srcset="images/prestonfarm1.jpg">
-                <source media="(max-width: 750px)" srcset="images/prestonfarm1.jpg">
-                <source media="(min-width: 751px)" srcset="images/prestonfarm1.jpg">
+                <source media="(max-width: 450px)" srcset="images/prestonfarmSmall.jpg">
+                <source media="(max-width: 700px)" srcset="images/prestonfarmmed.jpg">
+                <source media="(min-width: 701px)" srcset="images/prestonfarm1.jpg">
                 <img src="images/prestonfarm1.jpg" alt="Preston town">
             </picture>
         </div>
-        <h2>Fall is Here</h2>
+        
         <article>
+            <h2>Fall is Here</h2>
             <img src="images/winter.jpg" alt="winter in Idaho">
             <div class="data">
                 <p>
@@ -63,6 +64,18 @@
             </div>
         </article>
         <div class="townData"></div>
+        <h2>Contact information</h2>
+<div class="contact">
+  <img src="images/idahomap.JPG" alt="map">
+  <div class="address">
+    <p>&#128205; 1250 E 1200 N </p>
+    <p>Preston, ID</p>
+    <p>&#128222; 208-520-4520</p>
+    <div class="social">
+      <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook logo"></a>
+      <a href="https://www.instagram.com"><img src="images/insta.png" alt="Instagram logo"></a>
+      <a href="https://www.youtube.com"><img src="images/you.png" alt="Youtube logo"></a>
+    </div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia</p>

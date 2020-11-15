@@ -29,4 +29,17 @@
     .image-gallery figure:hover {
         box-shadow: 0 0 50px #333;
     }
+    section {
+        max-width: 300px;
+        box-shadow: 0 0 20px #333;
+    }
+    .townData {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+
+    }
+    .townData img {
+        max-width: 250px;
+    }
 }

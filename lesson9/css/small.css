@@ -79,6 +79,7 @@ ul {
 
 .hero-ph {
 	margin: 10px auto;
+	max-width: 60em;
 }
 
 /*image effects*/
@@ -103,6 +104,21 @@ figcaption {
 	text-align: center;
 	color:  #0d2c54;
 }
+.contact {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column-reverse;
+}
+
+.contact img {
+	width: 300px;
+	margin: 0 auto 0;
+}
+.social img {
+	width: 50px;
+	margin-left: 30px;
+}	
 
 /*footer*/
 
@@ -116,6 +132,31 @@ figcaption {
 	line-height: 1.5;
 }
 
-/*Storm Center form*/
+
+article {
+	max-width: 600px;
+ 	margin: .5rem auto;
+	border:1px solid #bbb;
+	background-color: #eee;
+	padding: 20px;
+}
+article img {
+		box-shadow: 0 0 1em;
+		width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+/*town info*/
+section {
+	max-width: 600px;
+  	margin: .5rem auto;
+	border:1px solid #bbb;
+	background-color: #eee;
+	text-align: center;
+	padding: 20px;
+}
+
 
 

@@ -40,6 +40,35 @@
     }
     .image-gallery figure {
         margin: 1em .5em;
-    }
+	}
+	.contact {
+		display: flex;
+		justify-content: space-evenly;
+		text-align: center;
+		flex-direction: row;
+	}
+	.contact img {
+		margin: 0;
+	}
 	
+	section {
+		max-width: 600px;
+		  margin: .5rem auto;
+		border:1px solid #bbb;
+		  background-color: #eee;
+	}
+	
+	.townData {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.townData:nth-child(odd) img {
+		grid-column: 2;
+	}
+	
+	.townData:nth-child(odd) {
+		grid-column: 1;
+		grid-row: 1;
+	}
 }
