@@ -35,31 +35,31 @@
     </nav>
     <main>
         <h2>Storm Center-Report Weather</h2>
-        <div class="formbox">
-            <!-- Form full name -->
-            <h3>Contact Information</h3>
-            <form action="thanks.html" method="get">
+        <!-- Form full name -->
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
                 <label for="name">Full name*</label>
-                <input type="text" id="name" name="name" pattern="[A-Za-z]{5,}" minlength="5" required>
-                <br><br>
+                <input type="text" id="name" name="name" pattern="[A-Za-z\s]{5,}" minlength="5" required>
                 <!-- Form email -->
                 <label for="email">Email</label>
-                <input  id="email" name="email" placeholder="user@email.com">
-                <br><br>
+                <input id="email" name="email" placeholder="user@email.com">
                 <!-- Form phone number -->
                 <label for="phone">Phone number*</label>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     placeholder="###-###-####" required>
-                <br><br>
                 <!-- Form zip code -->
                 <label for="zip">Zip code*</label>
-                <input type="text" id="zip" name="zipcode" pattern="[0-9] {5}" required>
-                <br><br>
-                <h3>Storm Report</h3>
+                <input type="number" id="zip" name="zipcode" pattern="[0-9] {5}" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Report</legend>
                 <!-- Form storm date -->
                 <label for="stormdate">Storm date:</label>
                 <input type="date" id="stormdate" name="stormdate" value="2020-11-05" min="2018-01-01" max="2025-12-31">
-                <br><br>
                 <!-- Form storm region -->
                 <label for="stormtype">Storm type:</label>
                 <input list="stormlist" name="stormtype" id="stormtype">
@@ -71,48 +71,43 @@
                     <option value="Tornado"></option>
                     <option value="Other"></option>
                 </datalist>
-                <br><br>
                 <!-- Form storm severity (1-10) -->
                 <label for="severity">Storm severity</label>
                 <input type="range" id="severity" name="severityrange" min="1" max="10">
-                <br><br>
                 <!-- Form storm region dropdown -->
                 <label for="selectregion">Select region:
                     <select name="regions" id="selectregion" onchange="selectResponse()">
-                        <option value="" disabled>Select a Region...</option>
+                        <option value="" disabled selected>Select a Region...</option>
                         <option value="Preston">Preston</option>
                         <option value="SodaSprings">Soda Springs</option>
                         <option value="FishHaven">Fish Haven</option>
                     </select>
                 </label>
-                <br><br>
-                <!-- Form user in danger -->
-                <label for="danger">Are you in danger? <em>(Choose one)</em></label>
-                <input id="danger">
-                <fieldset>
-                    <div class="selection">
-                        <label for="yes"><input type="radio" id="yes" name="danger" value="yes" checked> Yes</label>
-                    </div>
-                    <div class="selection">
-                        <label for="no"><input type="radio" id="no" name="danger" value="no" checked> No</label>
-                    </div>
-                    <div class="selection">
-                        <label for="maybe"><input type="radio" id="maybe" name="danger" value="maybe" checked>
-                            Maybe</label>
-                    </div>
-                </fieldset>
-                <br><br>
+            </fieldset>
+            <!-- Form user in danger -->
+            <fieldset>
+            <label for="danger">Are you in danger? <em>(Choose one)</em></label>
+                <div class="selection">
+                    <label for="yes"><input type="radio" id="yes" name="danger" value="yes" checked> Yes</label>
+                </div>
+                <div class="selection">
+                    <label for="no"><input type="radio" id="no" name="danger" value="no" checked> No</label>
+                </div>
+                <div class="selection">
+                    <label for="maybe"><input type="radio" id="maybe" name="danger" value="maybe" checked>
+                        Maybe</label>
+                </div>
+            </fieldset>
                 <!-- Form additional info (textarea) -->
                 <label for="comments">Additional information or comments:</label>
                 <br>
                 <textarea id="comments" name="commentsbox" rows="5" cols="33">
         </textarea>
-                <br><br>
                 <!-- Form submit button -->
 
                 <input type="submit" value="Submit Form">
-            </form>
-            <br><br>
+            </fieldset>
+        </form>
         </div>
     </main>
     <footer>
