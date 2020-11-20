@@ -110,22 +110,32 @@ figcaption {
 	justify-content:center;
 	text-align: center;
 	line-height: 1.25;
+	margin: 10px auto 0;
 }
 
 form {
 	max-width: 400px;
 	margin: 0 auto;
-	background-color: lightgray;
+	background-color: rgb(238, 237, 237);
 	border: 2px solid gray;
 	padding: 20px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
 }
 
 fieldset {
 	padding: 10px;
+	border: none;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 input {
 	display: block;
-	margin: 5px 10px;
+	margin: auto;
+	align-items: center;
+	font-family: 'Roboto Slab', serif;
 }
 
 .selection {
