@@ -1,0 +1,53 @@
+/*Medium viewport*************/
+
+@media only screen and (min-width: 37.5em) {
+    main, footer {
+        max-width: 960px;
+        margin: 10px auto 0;
+    }
+    header img {
+		width: 100px;
+	}
+	header {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2.5rem;
+	}
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    
+	.weathersummary {
+		position: absolute;
+		opacity: .9;
+		top: 40px;
+	    right: 20px;
+	}
+	.news img {
+		float: right;		 
+	}
+	table {
+		display: flex;
+	}
+	.contact {
+		display: flex;
+		justify-content: space-evenly;
+		text-align: center;
+		flex-direction: row;
+	}
+	.contact img {
+		margin: 0;
+	}
+}
