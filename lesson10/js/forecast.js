@@ -7,6 +7,11 @@ fetch(apiURL)
   console.log(jsObject);
   
   document.getElementById('currenttemp').textContent = jsObject.main.temp;
+  document.getElementById('condition').textContent = jsObject.weather[0].main;
+  document.getElementById('humidity').textContent = jsObject.main.humidity;
+  document.getElementById('windspeed').textContent = jsObject.wind.speed;
+  document.getElementById('output').innerHTML = windchill();
+
   const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
 const desc = jsObject.weather[0].description;  // note how we reference the weather array
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
@@ -25,7 +30,7 @@ fetch(forecast)
     const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
     console.log(forecast);
     
-    const day = ;
+    //const day = ;
     const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
    
    
