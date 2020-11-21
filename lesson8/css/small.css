@@ -133,7 +133,7 @@ legend {
 }
 input {
 	display: block;
-	margin: auto;
+	margin: 5px auto;
 	align-items: center;
 	font-family: 'Roboto Slab', serif;
 }
