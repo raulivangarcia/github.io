@@ -132,6 +132,13 @@ figcaption {
 	line-height: 1.5;
 }
 
+footer a:link {
+	border-bottom: none;
+}
+footer a:visited{
+	color: yellow;
+}
+
 
 article {
 	max-width: 600px;
