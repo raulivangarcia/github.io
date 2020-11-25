@@ -55,13 +55,13 @@
 		max-width: 600px;
 		margin: .5rem auto;
 		background-color: white;
+		box-shadow: 0 5px 15px #bbb;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		box-shadow: 0 5px 15px #bbb;
 	}
+
 	
-	
-	.towndata:nth-child(odd) img {
+ .towndata:nth-child(odd) img { 
 		grid-column: 2;
 	}
 	

@@ -77,9 +77,9 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.hero-ph {
+.hero-ph img {
 	margin: 10px auto;
-	max-width: 100%;
+	width: 100%;
 }
 
 /*image effects*/
