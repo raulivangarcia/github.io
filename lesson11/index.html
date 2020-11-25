@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="01width=device-width, initial-scale=1">
+    <meta name="description" content="Community weather for Preston, Idaho.">
+    <title>Idaho Weather | Preston, Idaho</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/weatherlogo.png" alt="weatherlogo">
+        <div class="headings">
+            <h1>Idaho Weather</h1>
+            <p>Bringing communities together through weather and local news.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="#"><a href="../lesson5/preston-5.html">Preston</a></li>
+            <li class="#"><a href="#">Fish Haven</a></li>
+            <li class="#"><a href="#">Soda Springs</a></li>
+            <li class="#"><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="#"><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-ph">
+            <picture>
+                <source media="(max-width: 450px)" srcset="images/prestonfarmsmall.jpg">
+                <source media="(max-width: 700px)" srcset="images/prestonfarmmed.jpg">
+                <source media="(max-width: 960px)" srcset="images/prestonfarm1.jpg">
+                <img src="images/prestonfarm1.jpg" alt="Preston town">
+            </picture>
+        </div>
+
+        <article>
+            <h2>Fall is Here</h2>
+            <img src="images/winter.jpg" alt="winter in Idaho">
+            <div class="data">
+                <p>
+                    The brilliant colors of fall are peaking in the Treasure Valley right now, and soon they’ll give way
+                    to winter, without much color at all.
+
+                    But garden master Jim Duthie says it doesn’t have to be that way. He’s got some suggestions for
+                    plants you can put in your yard and garden now, to brighten things up when winter gets here.
+
+                    October is over, and November has begun, so we’re about halfway through fall on the way to winter.
+                    But if you act quickly, before the ground freezes and the snow flies, there are some plants that you
+                    can put in your garden now to provide a little color against the drab gray of winter.
+                    <a
+                        href="https://www.ktvb.com/article/life/home-garden/you-can-grow-it/you-can-grow-it-winter-plants-that-will-brighten-up-your-garden/277-610386417">Continue
+                        reading</a>
+                </p>
+            </div>
+        </article>
+        <div class="towndata"></div>
+        <h2>Contact information</h2>
+        <div class="contact">
+            <img src="images/idahomap.JPG" alt="map">
+            <div class="address">
+                <p>&#128205; 1250 E 1200 N </p>
+                <p>Preston, ID</p>
+                <p>&#128222; 208-520-4520</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="images/fb.png" alt="Facebook logo"></a>
+                <a href="https://www.instagram.com"><img src="images/insta.png" alt="Instagram logo"></a>
+                <a href="https://www.youtube.com"><img src="images/you.png" alt="Youtube logo"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Idaho Weather | Raul Garcia</p>
+        <p>
+            <span id="currentdate"></span>
+        </p>
+        <a href="home-wireframe.html">Wireframe page</a>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/currentyear.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/towndata.js"></script>
+</body>
+
+</html>
