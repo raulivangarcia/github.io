@@ -60,14 +60,16 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	
- .towndata:nth-child(odd) img { 
+ 	.towndata:nth-child(odd) img { 
 		grid-column: 2;
 	}
 	
-	.data:nth-child(odd){
+	/* .data:nth-child(odd){
 		grid-column: 1;
-		grid-row: 1;
+	} */
+
+	.towndata:nth-child(even) img { 
+		grid-column: 1;
 	}
 }
 
