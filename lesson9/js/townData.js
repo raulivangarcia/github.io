@@ -10,6 +10,7 @@ fetch(requestURL)
         idaho.forEach(town => {
             let card = document.createElement('section');
             let data = document.createElement('div');
+            data.setAttribute('class', 'data');
             let h2 = document.createElement('h2');
             let h3 = document.createElement('h3');
             let year = document.createElement('p');

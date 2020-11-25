@@ -1,7 +1,7 @@
 /*Medium viewport*************/
 
 @media only screen and (min-width: 37.5em) {
-    main, footer {
+    main {
         max-width: 960px;
         margin: 10px auto 0;
     }
@@ -29,7 +29,7 @@
 		display: none;
     }
     footer {
-        max-width: 960px;
+
         margin: 0 auto;
 	}
 	.image-gallery {
@@ -53,22 +53,21 @@
 	
 	section {
 		max-width: 600px;
-		  margin: .5rem auto;
-		border:1px solid #bbb;
-		  background-color: #eee;
-	}
-	
-	.townData {
+		margin: .5rem auto;
+		background-color: white;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		box-shadow: 0 5px 15px #bbb;
 	}
 	
-	.townData:nth-child(odd) img {
+	
+	.towndata:nth-child(odd) img {
 		grid-column: 2;
 	}
 	
-	.townData:nth-child(odd) {
+	.data:nth-child(odd){
 		grid-column: 1;
 		grid-row: 1;
 	}
 }
+

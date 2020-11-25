@@ -79,7 +79,7 @@ ul {
 
 .hero-ph {
 	margin: 10px auto;
-	max-width: 60em;
+	max-width: 100%;
 }
 
 /*image effects*/
@@ -133,19 +133,20 @@ figcaption {
 }
 
 footer a:link {
-	border-bottom: none;
+	text-decoration: none;
 }
-footer a:visited{
-	color: yellow;
+footer a:visited {
+	color: rgba(255, 255, 0, 0.883);
+	font-family: 'Open Sans', sans-serif;
 }
 
 
 article {
-	max-width: 600px;
+	max-width: 650px;
  	margin: .5rem auto;
-	border:1px solid #bbb;
-	background-color: #eee;
+	background-color: white;
 	padding: 20px;
+	box-shadow: 0 5px 15px #bbb;
 }
 article img {
 		box-shadow: 0 0 1em;
@@ -159,11 +160,17 @@ article img {
 section {
 	max-width: 600px;
   	margin: .5rem auto;
-	border:1px solid #bbb;
-	background-color: #eee;
+	/* border: 1px solid #bbb; */
+	background-color: white;
 	text-align: center;
 	padding: 20px;
+	box-shadow: 0 5px 15px #bbb;
 }
 
+
+
+.towndata img {
+	max-width: 100%;
+}
 
 

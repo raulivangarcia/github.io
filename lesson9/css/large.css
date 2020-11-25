@@ -11,7 +11,6 @@
 	}
     
     footer {
-        max-width: 960px;
         margin: 0 auto;
     }
     .image-gallery {
@@ -31,15 +30,20 @@
     }
     section {
         max-width: 300px;
-        box-shadow: 0 0 20px #333;
+        
     }
-    .townData {
+    .towndata {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 10px;
+        grid-column-gap: 15px;
 
     }
-    .townData img {
+    .towndata:nth-child(odd) img {
+		grid-column: 1;
+	}
+    .towndata img {
+        margin: auto;
         max-width: 250px;
+       
     }
 }
