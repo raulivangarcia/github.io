@@ -35,12 +35,18 @@
     .towndata {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 15px;
 
     }
-    .towndata:nth-child(odd) img {
-		grid-column: 1;
-	}
+    .data {
+        grid-column: 1;
+    }
+    .towndata section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    
+    
     .towndata img {
         margin: auto;
         max-width: 250px;
