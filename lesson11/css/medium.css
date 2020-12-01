@@ -65,7 +65,7 @@
         margin: 1em .5em;
 	}
 	
-	section {
+	.towndata section {
 		max-width: 600px;
 		margin: .5rem auto;
 		background-color: white;

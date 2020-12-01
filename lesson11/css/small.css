@@ -1,6 +1,6 @@
 /*Small phone view************/
 /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');*/
-main, footer {
+main {
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -84,14 +84,14 @@ nav ul li.active a {
 ul {
 	font-family: 'Open Sans', sans-serif;
 }
-footer {
+/* footer {
 	background-color: #00A6ED;
 	padding: 5px 0;
 	align-items:center;
 	justify-content:center;
 	text-align: center;
 	line-height: 1.5;
-}
+} */
 .herodiv {
 	position: relative;
 }
@@ -225,7 +225,7 @@ article img {
 	
 }
 /*town info*/
-section {
+.towndata section {
 	max-width: 600px;
   	margin: .5rem auto;
 	/* border: 1px solid #bbb; */
@@ -234,8 +234,6 @@ section {
 	padding: 20px;
 	box-shadow: 0 5px 15px #bbb;
 }
-
-
 
 .towndata img {
 	max-width: 100%;
