@@ -205,6 +205,7 @@ footer {
 
 footer a:link {
 	text-decoration: none;
+	color: #0d2c54;
 }
 footer a:visited {
 	color: black;
