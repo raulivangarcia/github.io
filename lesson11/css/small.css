@@ -167,8 +167,8 @@ td {
 	padding: 25px 0;
 }
 .news img {
-	padding: 0 0 0 10px;
-	margin: auto; 
+	margin: auto;
+	max-width: 100%; 
 }
 .contact {
 	display: flex;
@@ -179,10 +179,67 @@ td {
 
 .contact img {
 	width: 300px;
-	margin: 0 auto 0;
+	margin: 0 auto;
+	max-width: 100%;
 }
 .social img {
-	width: 50px;
-	margin-left: 30px;
-}	
+	width: 40px;
+}
+.address img {
+	width: 20px;
+}
+/*footer*/
+
+footer {
+	color:  #0d2c54;
+	background-color: #00A6ED;
+	padding: 5px 0;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+	line-height: 1.5;
+}
+
+footer a:link {
+	text-decoration: none;
+}
+footer a:visited {
+	color: rgba(255, 255, 0, 0.883);
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+article {
+	max-width: 650px;
+ 	margin: .5rem auto;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 5px 15px #bbb;
+}
+article img {
+		box-shadow: 0 0 1em;
+		width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+/*town info*/
+section {
+	max-width: 600px;
+  	margin: .5rem auto;
+	/* border: 1px solid #bbb; */
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 5px 15px #bbb;
+}
+
+
+
+.towndata img {
+	max-width: 100%;
+}
+
+
 	

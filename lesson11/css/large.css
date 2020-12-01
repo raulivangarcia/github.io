@@ -13,5 +13,44 @@
     .weathersummary {
 		position: absolute;
         opacity: .9;
-	}
+    }
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        margin: 0 1em;
+    }
+    .image-gallery figure {
+        box-shadow: 0 0 15px 0px black;
+    }
+	figcaption {
+        text-align: center;     
+    }
+    .image-gallery figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    section {
+        max-width: 300px;
+        
+    }
+    .towndata {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+
+    }
+    .data {
+        grid-column: 1;
+    }
+    .towndata section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    
+    
+    .towndata img {
+        margin: auto;
+        max-width: 250px;
+       
+    }
 }

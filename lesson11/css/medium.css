@@ -36,7 +36,10 @@
 	    right: 20px;
 	}
 	.news img {
-		float: right;		 
+		float: right;
+		padding: 30px 20px 0 10px;
+		max-width: 300px;
+		 
 	}
 	table {
 		display: flex;
@@ -46,8 +49,35 @@
 		justify-content: space-evenly;
 		text-align: center;
 		flex-direction: row;
+		align-items: center;
+
 	}
 	.contact img {
 		margin: 0;
 	}
+	.image-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin: 0 1em;
+    }
+    .image-gallery figure {
+        margin: 1em .5em;
+	}
+	
+	section {
+		max-width: 600px;
+		margin: .5rem auto;
+		background-color: white;
+		box-shadow: 0 5px 15px #bbb;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.towndata section:nth-child(even) img { 
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	
 }
