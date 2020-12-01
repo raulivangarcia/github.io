@@ -207,7 +207,7 @@ footer a:link {
 	text-decoration: none;
 }
 footer a:visited {
-	color: rgba(255, 255, 0, 0.883);
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -280,4 +280,14 @@ button {
 	cursor: pointer;
 }
 
+/* events box */
+.cityevents {
+	border: 2px solid #ffb400;
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.cityevents ul {
+	list-style: none;
+}
 	

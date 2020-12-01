@@ -9,7 +9,7 @@ const sodaspringsweather = `https://api.openweathermap.org/data/2.5/weather?id=5
 //forecast
 const prestonforecast = `https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=ddbc2a683be3543c78927678e9fdfbc1&units=imperial`;
 
-const fishhavenforecast = `https://api.openweathermap.org/data/2.5/forecast?lon=-111.4048681&appid=ddbc2a683be3543c78927678e9fdfbc1&units=imperial`;
+const fishhavenforecast = `https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=ddbc2a683be3543c78927678e9fdfbc1&units=imperial`;
 
 const sodaspringsforecast = `https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=ddbc2a683be3543c78927678e9fdfbc1&units=imperial`;
 
@@ -61,7 +61,7 @@ document.getElementById("windchill").innerHTML = output
 fetch(forecastAPI)
 .then((response) => response.json())
 .then((jsObject) => {
-  console.log(jsObject);
+  //console.log(jsObject);
 //filter
     const forecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
     //console.log(forecast);
