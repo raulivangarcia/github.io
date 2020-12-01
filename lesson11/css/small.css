@@ -162,6 +162,9 @@ table {
 td {
 	text-align: center;
 }
+.forecast img {
+	width: 70px;
+}
 /*article*/
 .news {
 	padding: 25px 0;
@@ -239,5 +242,42 @@ article img {
 	max-width: 100%;
 }
 
+/* storm center page */
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: rgb(238, 237, 237);
+	border: 2px solid gray;
+	padding: 20px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+
+fieldset {
+	padding: 10px;
+	border: none;
+}
+legend {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+input {
+	display: block;
+	margin: 5px auto;
+	align-items: center;
+	font-family: 'Roboto Slab', serif;
+}
+label {
+	font-size: 13px;
+	padding-top: 10px;
+}
+.selection {
+	display: inline-block;
+	padding: 5px;
+}
+button {
+	cursor: pointer;
+}
 
 	
