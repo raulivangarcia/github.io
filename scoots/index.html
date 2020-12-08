@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="01width=device-width, initial-scale=1">
+    <meta name="description" content="Rental company for scooters and ATVs">
+    <title>~Scoots Rental Company | Cozumel, Mexico</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/cozumelheader.jpg" alt="signs on beach">
+        <div class="headings">
+            <h2>Where the fun starts!</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="#"><a href="/scoots/rentals.html">Rentals</a></li>
+            <li class="#"><a href="/scoots/reservations.html">Reservations</a></li>
+            <li class="#"><a href="/scoots/tours.html">Tours</a></li>
+            <li class="#"><a href="/scoots/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-ph">
+            <picture>
+                <source media="(max-width: 450px)" srcset="">
+                <source media="(max-width: 700px)" srcset="">
+                <source media="(max-width: 960px)" srcset="">
+                <img src="" alt="">
+            </picture>
+        </div>
+        <div class="rentaldiv">
+            <h2>Rental Information</h2>
+            <ul>
+                <li>Honda Motor Scooters
+                    <ul>
+                        <li>Honda Metropolitan (49cc) - 1 person</li>
+                        <li>Honda Dio (110cc) - 2 person</li>
+                        <li>Honda PCX150 (149cc) - 2 person</li>
+                    </ul>
+                </li>
+                <li>ATV Side-by-Side
+                    <ul>
+                        <li>Honda Pioneer 1000</li>
+                    </ul>
+                </li>
+                <li>Jeep Rentals
+                    <ul>
+                        <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                        <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <article>
+            <h2>Welcome to Cozumel!</h2>
+            <img src="" alt="Beach in Cozumel">
+            <div class="data">
+                <p>
+                    The Caribbean sea is completely fascinating. The turquoise of its waters and its transparency will
+                    make you fall in love of this scene. If you are thinking about visiting the Riviera Maya, you
+                    definitely have to enjoy a few days in Cozumel. To get there you will have to take a flight to
+                    Cancún and then, take the ferry to this enchanted place.
+                    The island has incomparable views, in and outside the water. It is one of the favorite destinations
+                    for doing snorkel thanks to the fact that it is part of the second largest reef barrier in the
+                    world.
+                    Begin your visit in Punta Sur, where you will find a park and an ecological reserve. Take a look at
+                    the Faro Celarain, a modern lighthouse that contrast with the Templo Caracol, a pre-hispanic
+                    construction. To visit the archaeological zone you will have to make a prior reservation to the
+                    Centro Nacional de Antropología e Historia. The park is open to the public from Monday to Friday
+                    from 9 AM to 4 PM.
+
+                    Discover the downtown of Cozumel and eat a traditional “marquesita”, a kind of sweet, thin tortilla
+                    stuffed with bola cheese and hazelnut cream. If you prefer, enjoy an ice cream in the Parque Juarez,
+                    a place so calm, beautiful and quiet that you will not want to leave.
+
+
+                    <a href="https://www.visitmexico.com/en/quintana-roo/cozumel">Continue
+                        reading</a>
+                </p>
+            </div>
+        </article>
+        <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <section class="categories">
+                <ul>
+                    <li>Currently:</li>
+                    <li>Current Temp:</li>
+                    <li>Humidity:</li>
+                </ul>
+            </section>
+            <section class="numbers">
+                <ul>
+                    <li><span id="condition"></span></li>
+                    <li><span id="currenttemp"></span>&deg;F</li>
+                    <li><span id="humidity"></span>&#37;</li>
+                </ul>
+            </section>
+        </section>
+        </div>
+        <div class="forecast">
+            <table>
+                <tr>
+                    <th colspan="3">3 Day Forecast</th>
+                </tr>
+                <tr>
+                    <th id="dayofweek1"></th>
+                    <th id="dayofweek2"></th>
+                    <th id="dayofweek3"></th>
+                </tr>
+                <tr>
+                    <td><img id="icon1"></img></td>
+                    <td><img id="icon2"></img></td>
+                    <td><img id="icon3"></img></td>
+                </tr>
+                <tr>
+                    <td id="forecast1"></td>
+                    <td id="forecast2"></td>
+                    <td id="forecast3"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- <div class="towndata"></div> -->
+        <h2>Contact information</h2>
+        <div class="contact">
+            <img src="" alt="">
+            <div class="address">
+                <h3>Address</h3>
+                <p> <img src="images/location.png" alt="location-pin"> Av. Rafael E. Melgar 555 Centro, 77600 San Miguel
+                    de Cozumel </p>
+                <p>Quintana Roo, Mexico</p>
+                <h3>Phone</h3>
+                <p>&#128222; +52 987 654 3210</p>
+                <h3>Email</h3>
+                <p>&#9993; email@scootsrentals.com</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia</p>
+        <p>
+        <p>Updated: <span id="last-updated"></span> </p>
+        </p>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube logo"></a>
+        </div>
+        <a href="/scoots/resources.html">Attributions</a>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/currentyear.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>
