@@ -44,8 +44,8 @@ p {
 
 nav {
 	margin: 0 auto;
-	background-color: ;
-	border-top: solid 1px gray;
+	background-color: #008b8b;
+	/* border-top: solid 1px gray; */
 }
 nav ul {
 	margin: 0;
@@ -66,15 +66,15 @@ nav ul {
     font-family: 'Heebo', sans-serif;
 	text-align: left;
 	text-decoration: none;
-	color: #0d2c54;
-    font-weight: 700;
+	color:white;
 }
 nav ul li.active a {
-    background-color:#00A6ED;
+	background-color: #e0ffff;
+	color: rgb(100, 98, 98);
   }
 .navigation a:hover {
-	color: white;
-	background-color: #0d2c54;
+	background-color: #e0ffff;
+	color: rgb(100, 98, 98);
 }
 .responsive li {
 	display: block;
@@ -82,4 +82,47 @@ nav ul li.active a {
 
 ul {
 	font-family: 'Heebo', sans-serif;
+}
+footer {
+	background-color: #008b8b;
+	display: grid;
+	grid-template-columns: 1fr 200px;
+}
+.social {
+	grid-column: 2;
+}
+.address img {
+	height: 30px;
+}
+
+.weathersummary {
+	max-width: 100%;
+	background-color:#ff94e0;
+	padding: 1rem 1rem;
+	border: 1px solid #333;
+	box-shadow: 0 0 20px rgb(71, 71, 71);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: .5em;
+}
+.weathersummary h3 {
+	grid-column: span 2;
+	justify-self: center;
+	margin: 0;
+}
+.weathersummary section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.categories {
+	grid-column: 1;
+	grid-row: 2;
+}
+.numbers {
+	grid-column: 2;
+	grid-row: 2;
+}
+section.categories ul li {
+	text-align: right;
 }
