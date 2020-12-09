@@ -97,10 +97,10 @@ footer {
 
 .weathersummary {
 	max-width: 100%;
-	background-color:#ff94e0;
+	background-color:#ca63ad;
 	padding: 1rem 1rem;
 	border: 1px solid #333;
-	box-shadow: 0 0 20px rgb(71, 71, 71);
+	box-shadow: 0 0 10px rgb(71, 71, 71);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: .5em;
