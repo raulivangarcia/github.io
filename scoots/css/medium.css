@@ -1,3 +1,6 @@
+/*Medium viewport*************/
+
+@media only screen and (min-width: 37.5em) {
 .navigation {
     display: flex;
 }
@@ -10,4 +13,25 @@
 }
 .navigation li:first-child {
     display: none;
+}
+table {
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	margin: auto;
+	background-color: #fc86da;
+	border: 1px solid #333;
+	border-spacing: 5px;
+	font-family:  'heebo', serif;
+}
+td {
+	text-align: center;
+}
+.forecast img {
+	width: 70px;
+}
+.weathersummary {
+    width: 500px;
+    margin: 0 auto 20px auto;
+}
 }

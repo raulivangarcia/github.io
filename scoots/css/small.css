@@ -5,12 +5,7 @@ main {
 	margin: 0 auto;
 }
 
-header {
-	/* background-color: #00A6ED; */
-	display: flex;
-	align-items:center;
-	justify-content:center;
-}
+
 
 header img {
 	width: 100%;
@@ -19,15 +14,19 @@ header img {
 }
 
 .headings {
-	/* display: flex;
-	flex-direction: column; */
 	color: white;
-	/* line-height: 1.2em; */
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	
 }
 
-.headings h2 {
+.headings h2  {
 	font-size: 1.6rem;
-    color: #0D2C54;
+    color: #ff1c9c;
+}
+.headings h1{
+	color: #ff1c9c;
 }
 h1, h2, h3, h4 {
 	font-family: 'Lora', serif;
@@ -45,7 +44,7 @@ p {
 nav {
 	margin: 0 auto;
 	background-color: #008b8b;
-	/* border-top: solid 1px gray; */
+	/* border: 1px solid #015a5a; */
 }
 nav ul {
 	margin: 0;
@@ -67,6 +66,7 @@ nav ul {
 	text-align: left;
 	text-decoration: none;
 	color:white;
+	/* border: 1px solid #015a5a; */
 }
 nav ul li.active a {
 	background-color: #e0ffff;
@@ -90,6 +90,15 @@ footer {
 }
 .social {
 	grid-column: 2;
+	padding-top: 10px;
+}
+footer a {
+	text-align: center;
+	color: black;
+}
+footer a:visited {
+	text-align: center;
+	color: white;
 }
 .address img {
 	height: 30px;
@@ -97,13 +106,13 @@ footer {
 
 .weathersummary {
 	max-width: 100%;
-	background-color:#ca63ad;
-	padding: 1rem 1rem;
+	background-color:#fc86da;
 	border: 1px solid #333;
-	box-shadow: 0 0 10px rgb(71, 71, 71);
+	box-shadow: 0 0 5px rgb(71, 71, 71);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: .5em;
+	margin-bottom: 20px;
 }
 .weathersummary h3 {
 	grid-column: span 2;
@@ -125,4 +134,28 @@ footer {
 }
 section.categories ul li {
 	text-align: right;
+}
+table {
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+	background-color: #00A6ED;
+	border: 1px solid #333;
+	display: none;
+	border-spacing: 5px;
+	box-shadow: 0 0 5px rgb(71, 71, 71);
+}
+td {
+	text-align: center;
+}
+.forecast img {
+	width: 70px;
+}
+.rentaldiv {
+	background-color: lightgray;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #333;
+	box-shadow: 0 0 5px rgb(71, 71, 71);
 }
