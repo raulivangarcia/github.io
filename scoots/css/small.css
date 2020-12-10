@@ -163,3 +163,22 @@ td {
 	margin: 0 auto;
 	max-width: 100;
 }
+.contact {
+	max-width: 75%;
+	text-align: center;
+	border: 1px solid #333;
+	margin: 0 auto;
+}
+.cardscontainer {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 10px;
+}
+.card1, .card2, .card3, .card4 {
+	border: 1px solid #333;
+	box-shadow: 0 0 5px rgb(71, 71, 71);
+	padding: 10px;
+}
+.cardscontainer img {
+	max-width: 300px;
+}
