@@ -9,8 +9,8 @@ main {
 
 header img {
 	width: 100%;
-    margin: 0;
-    /* padding: 20px; */
+	margin: 0;
+	height: 300px;
 }
 
 .headings {
@@ -158,4 +158,8 @@ td {
 	margin: 0 auto;
 	border: 1px solid #333;
 	box-shadow: 0 0 5px rgb(71, 71, 71);
+}
+.map1 {
+	margin: 0 auto;
+	max-width: 100;
 }
