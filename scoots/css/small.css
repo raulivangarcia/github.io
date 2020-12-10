@@ -4,20 +4,25 @@ main {
 	max-width: 960px;
 	margin: 0 auto;
 }
+header {
+	background-color:white;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
 
 
-
-header img {
+/* header img {
 	width: 100%;
 	margin: 0;
 	height: 300px;
-}
+} */
 
 .headings {
 	color: white;
-	position: absolute;
-	top: 5%;
-	left: 5%;
+	/* position: absolute;
+	top: 20px;
+	left: 20px; */
 	
 }
 
@@ -83,6 +88,14 @@ nav ul li.active a {
 ul {
 	font-family: 'Heebo', sans-serif;
 }
+.hero-ph {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.hero-ph img {
+	width: 100%;
+}
+
 footer {
 	background-color: #008b8b;
 	display: grid;
@@ -98,7 +111,7 @@ footer a {
 }
 footer a:visited {
 	text-align: center;
-	color: white;
+	color: black;
 }
 .address img {
 	height: 30px;
@@ -117,7 +130,7 @@ footer a:visited {
 .weathersummary h3 {
 	grid-column: span 2;
 	justify-self: center;
-	margin: 0;
+	margin: 10px auto;
 }
 .weathersummary section ul {
 	list-style: none;
@@ -152,12 +165,30 @@ td {
 	width: 70px;
 }
 .rentaldiv {
-	background-color: lightgray;
+	display: block;
+	background-color: #e0ffff;
 	max-width: 960px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 15px auto;
 	border: 1px solid #333;
-	box-shadow: 0 0 5px rgb(71, 71, 71);
+	/* box-shadow: 0 0 5px rgb(71, 71, 71); */
+}
+.rentaldiv img {
+	width: 100%;
+
+}
+
+.rentaldiv h2 {
+	margin: 10px auto 0 auto;
+}
+article {
+	max-width: 960px;
+	margin: 0 auto 25px auto;
+}
+article img {
+	float: left;
+	max-width: 300px;
+	padding-right: 15px;
 }
 .map1 {
 	margin: 0 auto;
@@ -166,13 +197,17 @@ td {
 .contact {
 	max-width: 75%;
 	text-align: center;
-	border: 1px solid #333;
+	margin: 0 auto 20px auto;
+	
+}
+.contact h2 {
 	margin: 0 auto;
 }
 .cardscontainer {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 10px;
+	margin-bottom: 15px;
 }
 .card1, .card2, .card3, .card4 {
 	border: 1px solid #333;
@@ -180,5 +215,10 @@ td {
 	padding: 10px;
 }
 .cardscontainer img {
-	max-width: 300px;
+	max-width: 250px;
+}
+fieldset {
+	max-width: 650px;
+	margin: 0 auto 15px auto;
+
 }
