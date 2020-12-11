@@ -217,8 +217,38 @@ article img {
 .cardscontainer img {
 	max-width: 250px;
 }
+/* contact form */
 fieldset {
-	max-width: 650px;
+	max-width: 550px;
 	margin: 0 auto 15px auto;
-
+	border: none;
+	background-color:  #e0ffff;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Heebo', sans-serif;
+}
+legend {
+	text-align: center;
+}
+input {
+	height: 40px;
+	font-family: 'Heebo', sans-serif;
+	margin: 10px;
+}
+input[type="submit"] {
+  	border: 0px;
+  	margin: 15px auto 5px auto;
+  	padding: 10px;
+  	text-align: center;
+  	width: 50%;
+  	background: #008b8b;
+  	color: black;
+  	text-transform: uppercase;
+  	letter-spacing: 2px;
+  	font-weight: bold;
+  	border-radius: 25px;
+  	cursor: pointer;
+}
+textarea {
+	margin: 10px;
 }

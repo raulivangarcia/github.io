@@ -49,27 +49,32 @@
                     <h2>Contact Us</h2>
                     <h3>We'd love to hear from you!</h3>
                 </legend>
-                <label for="name">Name*</label>
-                <input type="text" id="name" name="name" pattern="[A-Za-z\s]{3,}" minlength="3" required>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z\s]{3,}" minlength="3" placeholder="Name" required>
                 <!-- Form email -->
-                <label for="email">Email</label>
-                <input id="email" name="email" placeholder="user@email.com">
+                <label for="email"></label>
+                <input id="email" name="email" placeholder="Email">
                 <!-- Form phone number -->
-                <label for="phone">Phone number*</label>
+                <label for="phone"></label>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                    placeholder="###-###-####" required>
-               
-                <fieldset class="comments">
-                    <label for="comments">Additional information or comments:</label>
-                    <textarea id="comments" name="commentsbox" rows="5" cols="33"></textarea>
-                    <!-- Form submit button -->
-                </fieldset>
+                    placeholder="Phone" required>
+                <label for="comments"></label>
+                <textarea id="comments" name="commentsbox" rows="5" cols="33" placeholder="Message"></textarea>
+                <!-- submit button -->
+
                 <input type="submit" value="Send Message">
             </fieldset>
 
         </form>
 
-        <div class="contact">
+        <div class="contactmap">
+            <h2>Where to find us</h2>
+            <h3>Two convenient locations</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4508.724060104725!2d-86.96068309112117!3d20.505662309751045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59db448aa88f%3A0xd0d1f0a05372b14d!2sAv.%20Rafael%20E.%20Melgar%20555%2C%20Centro%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607645666382!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.669536813232!2d-86.97233742987893!3d20.478761805674445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748add4601f%3A0xbd36e5ece1fc0a7b!2sPemex!5e0!3m2!1sen!2sus!4v1607646443943!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+        <!-- <div class="contact">
             <h2>Contact information</h2>
             <div class="address">
                 <h3>Address</h3>
@@ -81,8 +86,8 @@
                 <h3>Email</h3>
                 <p>&#9993; email@scootsrentals.com</p>
             </div>
+        </div> -->
         </div>
-    </div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia | Updated: <span id="last-updated"></span> | <a
