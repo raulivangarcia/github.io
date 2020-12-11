@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="01width=device-width, initial-scale=1">
+    <meta name="description" content="Rental company for scooters and ATVs">
+    <title>~Scoots Rental Company | Cozumel, Mexico</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <!-- <img class="logo" src="images/cozumelheader.jpg" alt="signs on beach"> -->
+            <div class="headings">
+                <h1>~Scoots</h1>
+                <h2>Where the fun starts!</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="#"><a href="/scoots/rentals.html">Rentals</a></li>
+            <li class="#"><a href="/scoots/reservations.html">Reservations</a></li>
+            <li class="#"><a href="/scoots/tours.html">Tours</a></li>
+            <li class="#"><a href="/scoots/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-ph">
+            <picture>
+                <!-- <source media="(max-width: 450px)" srcset="">
+                <source media="(max-width: 700px)" srcset="">
+                <source media="(max-width: 960px)" srcset=""> -->
+                <img src="images/hero4.jpg" alt="cozumelcollage">
+            </picture>
+        </div>
+        <form action="confirmation.html" method="get">
+            <fieldset>
+                <legend>
+                    <h2>Reservation Form</h2>
+                    <h4>Please fill out all fields</h4>
+                </legend>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z\s]{3,}" minlength="3" placeholder="Name"
+                    required>
+                <!-- Form email -->
+                <label for="email"></label>
+                <input id="email" name="email" placeholder="Email">
+                <!-- Form phone number -->
+                <label for="phone"></label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone"
+                    required>
+                <label for="comments"></label>
+                <textarea id="comments" name="commentsbox" rows="5" cols="33" placeholder="Message"></textarea>
+                <!-- submit button -->
+
+                <input type="submit" value="Submit">
+            </fieldset>
+
+        </form>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia | Updated: <span id="last-updated"></span> | <a
+                href="/scoots/resources.html">Attributions</a></p>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube logo"></a>
+
+        </div>
+
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/currentyear.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>

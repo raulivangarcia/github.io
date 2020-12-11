@@ -76,5 +76,12 @@ td {
 .rentaldiv h2 {
 	margin: 10px auto 0 auto;
 }
+.contactmap {
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+}
 
 }

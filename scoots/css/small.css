@@ -220,7 +220,7 @@ article img {
 /* contact form */
 fieldset {
 	max-width: 550px;
-	margin: 0 auto 15px auto;
+	margin: 0 auto 25px auto;
 	border: none;
 	background-color:  #e0ffff;
 	display: flex;
@@ -251,4 +251,13 @@ input[type="submit"] {
 }
 textarea {
 	margin: 10px;
+}
+.contactmapheadings h2{
+	margin-bottom: -5px;
+}
+.thanks {
+	max-width: 400px;
+	margin: 15px auto;
+	border: 1px solid gray;
+	padding: 10px;
 }
