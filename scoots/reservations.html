@@ -27,9 +27,9 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="#"><a href="index.html">Home</a></li>
             <li class="#"><a href="/scoots/rentals.html">Rentals</a></li>
-            <li class="#"><a href="/scoots/reservations.html">Reservations</a></li>
+            <li class="active"><a href="/scoots/reservations.html">Reservations</a></li>
             <li class="#"><a href="/scoots/tours.html">Tours</a></li>
             <li class="#"><a href="/scoots/contact.html">Contact Us</a></li>
         </ul>
@@ -49,6 +49,27 @@
                     <h2>Reservation Form</h2>
                     <h4>Please fill out all fields</h4>
                 </legend>
+                <label for="rentaldate">Rental Date:</label>
+                <input type="date" id="rentaldate" name="rentaldate" value="2020-11-05" min="2018-01-01"
+                    max="2025-12-31" placeholder="Rental Date" required>
+                <label for="rentalperiod">Rental Period:
+                    <select name="rentalperiod" id="rentalperiod" onchange="selectResponse()">
+                        <option value="" disabled selected>Select a time period</option>
+                        <option value="half">Half Day/3Hours</option>
+                        <option value="full">Full Day</option>
+                    </select>
+                </label>
+                <label for="rentaltype">Rental Type:
+                    <select name="type" id="rentaltype" onchange="selectResponse()">
+                        <option value="" disabled selected>Select a rental type</option>
+                        <option value="scooter1">~Honda Metro Scooter</option>
+                        <option value="scooter2">~Honda Dio Scooter</option>
+                        <option value="scooter3">~Honda PCX150 Scooter</option>
+                        <option value="atv">Honda Pioneer ATV</option>
+                        <option value="jeep1">Jeep Wrangler 4-door</option>
+                        <option value="jeep2">Jeep Wrangler 2-door</option>
+                    </select>
+                </label>
                 <label for="name"></label>
                 <input type="text" id="name" name="name" pattern="[A-Za-z\s]{3,}" minlength="3" placeholder="Name"
                     required>
@@ -59,15 +80,25 @@
                 <label for="phone"></label>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone"
                     required>
+                <label for="state"></label>
+                <input type="text" id="state" name="state" pattern="[A-Za-z\s]{2,}" minlength="2"
+                    placeholder="Home State or Country" required>
+                <label for="cruise"></label>
+                <input type="text" id="cruise" name="cruise" pattern="[A-Za-z\s]{5,}" minlength="2"
+                    placeholder="Cruise Line (if applicable)">
                 <label for="comments"></label>
-                <textarea id="comments" name="commentsbox" rows="5" cols="33" placeholder="Message"></textarea>
+                <textarea id="comments" name="commentsbox" rows="5" cols="33"
+                    placeholder="Special Acommodations/Comments"></textarea>
+                    <label for="check-box"> I agree to the</label> <a href="agreement.html">rental agreement</a></label>
+                    <input type="checkbox" id="check-box" name="check-box" required> 
+                    
                 <!-- submit button -->
-
                 <input type="submit" value="Submit">
             </fieldset>
-
         </form>
-        
+
+
+
     </main>
     <footer>
         <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia | Updated: <span id="last-updated"></span> | <a

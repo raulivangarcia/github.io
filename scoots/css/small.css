@@ -190,7 +190,7 @@ article img {
 	max-width: 300px;
 	padding-right: 15px;
 }
-.map1 {
+.map1 img {
 	margin: 0 auto;
 	max-width: 100;
 }
@@ -261,3 +261,13 @@ textarea {
 	border: 1px solid gray;
 	padding: 10px;
 }
+label {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+/* .check-box {
+	
+}
+.agree {
+	text-align: center;
+} */
