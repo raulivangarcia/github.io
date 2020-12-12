@@ -88,13 +88,32 @@ nav ul li.active a {
 ul {
 	font-family: 'Heebo', sans-serif;
 }
+/* button over picture */
+.hero-ph img {
+	width: 100%;
+}
+.book{
+	position: relative;
+	
+}
+.book .btn {
+	position: absolute;
+	bottom:4em;
+	right:4em;
+	background-color:#8F0005;
+	border-radius:1em;
+	color:white;
+	text-transform:uppercase;
+	padding:1em 1.5em;
+}
+.book .btn:hover {
+	background-color: black;
+}
 .hero-ph {
 	margin: 0 auto;
 	max-width: 960px;
 }
-.hero-ph img {
-	width: 100%;
-}
+
 
 footer {
 	background-color: #008b8b;
@@ -175,12 +194,13 @@ td {
 }
 .rentaldiv img {
 	width: 100%;
-
+	
 }
 
 .rentaldiv h2 {
 	margin: 10px auto 0 auto;
 }
+
 article {
 	max-width: 960px;
 	margin: 0 auto 25px auto;
@@ -271,3 +291,29 @@ label {
 .agree {
 	text-align: center;
 } */
+
+
+/* rental page info */
+.scooterdiv {
+	display: block;
+	background-color: #e0ffff;
+	max-width: 960px;
+	width: 100%;
+	margin: 15px auto;
+	border: 1px solid #333;
+	/* box-shadow: 0 0 5px rgb(71, 71, 71); */
+}
+.scooterdiv img {
+	width: 100%;
+
+}
+
+.scooterdiv h2 {
+	margin: 10px auto 0 auto;
+}
+.scooterdiv ul {
+	list-style-type: none;
+}
+.prices table, td, th {
+border: 1px solid black;
+}

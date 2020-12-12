@@ -1,6 +1,6 @@
 @media only screen and (min-width: 60em) {
     .cardscontainer {
-        max-width: 960px;
+        max-width: 1200px;
         margin: 0 auto 15px auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);

@@ -102,4 +102,27 @@ td {
 	margin: 0 auto;
 }
 
+.scooterdiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 15px;
+	background-color: #e0ffff;
+	max-width: 960px;
+	width: 100%;
+	margin: 15px auto;
+	border: 1px solid #333;
+	/* box-shadow: 0 0 5px rgb(71, 71, 71); */
+}
+.scooterdiv img {
+	width: 100%;
+	grid-column: 2;
+	grid-row: 1 / 3;
+
+}
+.scooterinfo {
+	grid-column: 1;
+}
+.scooterdiv h2 {
+	margin: 10px auto 0 auto;
+}
 }

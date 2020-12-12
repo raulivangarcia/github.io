@@ -35,12 +35,16 @@
         </ul>
     </nav>
     <main>
-        <div class="hero-ph">
+        <div class="book">
+            <div class="hero-ph">
             <picture>
                 <!-- <source media="(max-width: 450px)" srcset="">
                 <source media="(max-width: 700px)" srcset="">
                 <source media="(max-width: 960px)" srcset=""> -->
-                <img src="images/hero4.jpg" alt="cozumelcollage">
+                
+                    <button class="btn">Book Now</button>
+                </div>
+                <img src="images/hero4.jpg" alt="scooter overlooking beach">
             </picture>
         </div>
         <div class="rentaldiv">
@@ -69,7 +73,6 @@
                 </ul>
             </div>
             <img src="images/redscooter.JPG" alt="red motor scooter on the beach">
-
         </div>
 
         <article>
@@ -98,61 +101,62 @@
             </div>
         </article>
         <div class="weathercontactcontainer">
-        <section class="weathersummary">
-            <h3>Weather</h3>
-            <section class="categories">
-                <ul>
-                    <li>Currently:</li>
-                    <li>Current Temp:</li>
-                    <li>Humidity:</li>
-                </ul>
+            <section class="weathersummary">
+                <h3>Weather</h3>
+                <section class="categories">
+                    <ul>
+                        <li>Currently:</li>
+                        <li>Current Temp:</li>
+                        <li>Humidity:</li>
+                    </ul>
+                </section>
+                <section class="numbers">
+                    <ul>
+                        <li><span id="condition"></span></li>
+                        <li><span id="currenttemp"></span>&deg;F</li>
+                        <li><span id="humidity"></span>&#37;</li>
+                    </ul>
+                </section>
             </section>
-            <section class="numbers">
-                <ul>
-                    <li><span id="condition"></span></li>
-                    <li><span id="currenttemp"></span>&deg;F</li>
-                    <li><span id="humidity"></span>&#37;</li>
-                </ul>
-            </section>
-        </section>
-        <div class="forecast">
-            <table>
-                <tr>
-                    <th colspan="3">3 Day Forecast</th>
-                </tr>
-                <tr>
-                    <th id="dayofweek1"></th>
-                    <th id="dayofweek2"></th>
-                    <th id="dayofweek3"></th>
-                </tr>
-                <tr>
-                    <td><img id="icon1"></img></td>
-                    <td><img id="icon2"></img></td>
-                    <td><img id="icon3"></img></td>
-                </tr>
-                <tr>
-                    <td id="forecast1"></td>
-                    <td id="forecast2"></td>
-                    <td id="forecast3"></td>
-                </tr>
-            </table>
-        </div>
-        <!-- <div class="towndata"></div> -->
+            <div class="forecast">
+                <table>
+                    <tr>
+                        <th colspan="3">3 Day Forecast</th>
+                    </tr>
+                    <tr>
+                        <th id="dayofweek1"></th>
+                        <th id="dayofweek2"></th>
+                        <th id="dayofweek3"></th>
+                    </tr>
+                    <tr>
+                        <td><img id="icon1"></img></td>
+                        <td><img id="icon2"></img></td>
+                        <td><img id="icon3"></img></td>
+                    </tr>
+                    <tr>
+                        <td id="forecast1"></td>
+                        <td id="forecast2"></td>
+                        <td id="forecast3"></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- <div class="towndata"></div> -->
 
-        <div class="contact">
-            <h2>Contact information</h2>
-            <div class="address">
-                <h3>Address</h3>
-                <p> <img src="images/location.png" alt="location-pin"> Av. Rafael E. Melgar 555 Centro, 77600 San Miguel
-                    de Cozumel </p>
-                <p>Quintana Roo, Mexico</p>
-                <h3>Phone</h3>
-                <p>&#128222; +52 987 654 3210</p>
-                <h3>Email</h3>
-                <p>&#9993; email@scootsrentals.com</p>
+            <div class="contact">
+                <h2>Contact information</h2>
+                <div class="address">
+                    <h3>Address</h3>
+                    <p> <img src="images/location.png" alt="location-pin"> Av. Rafael E. Melgar 555 Centro, 77600 San
+                        Miguel
+                        de Cozumel </p>
+                    <p>Quintana Roo, Mexico</p>
+                    <h3>Phone</h3>
+                    <p>&#128222; +52 987 654 3210</p>
+                    <h3>Email</h3>
+                    <p>&#9993; email@scootsrentals.com</p>
+                </div>
             </div>
         </div>
-    </div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia | Updated: <span id="last-updated"></span> | <a

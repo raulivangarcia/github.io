@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
-
 <body>
     <header>
         <div>
@@ -23,12 +22,11 @@
             </div>
         </div>
     </header>
-
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class="#"><a href="/scoots/rentals.html">Rentals</a></li>
+            <li class="#"><a href="index.html">Home</a></li>
+            <li class="active"><a href="/scoots/rentals.html">Rentals</a></li>
             <li class="#"><a href="/scoots/reservations.html">Reservations</a></li>
             <li class="#"><a href="/scoots/tours.html">Tours</a></li>
             <li class="#"><a href="/scoots/contact.html">Contact Us</a></li>
@@ -40,59 +38,98 @@
                 <!-- <source media="(max-width: 450px)" srcset="">
                 <source media="(max-width: 700px)" srcset="">
                 <source media="(max-width: 960px)" srcset=""> -->
-                <img src="images/hero4.jpg" alt="cozumelcollage">
+                <img src="images/jepchica.jpg" alt="jeep rental">
             </picture>
         </div>
-        <div class="rentaldiv">
-            <h2>Rental Information</h2>
-            <div class="rentalinfo">
+        <div class="scooterdiv">
+            <h2>Scooter Rentals</h2>
+            <div class="scooterinfo">
                 <ul>
-                    <li>Honda Motor Scooters
-                        <ul>
-                            <li>Honda Metropolitan (49cc) - 1 person</li>
-                            <li>Honda Dio (110cc) - 2 person</li>
-                            <li>Honda PCX150 (149cc) - 2 person</li>
-                        </ul>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
                     </li>
-                    <li>ATV Side-by-Side
-                        <ul>
-                            <li>Honda Pioneer 1000</li>
-                        </ul>
-                    </li>
-                    <li>Jeep Rentals
-                        <ul>
-                            <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
-                            <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
-                        </ul>
-                    </li>
-
                 </ul>
             </div>
             <img src="images/redscooter.JPG" alt="red motor scooter on the beach">
-
         </div>
-
+        <div class="scooterdiv">
+            <h2>ATV Rentals</h2>
+            <div class="scooterinfo">
+                <ul>
+                    <li>Honda Pioneer 1000</li>
+                </ul>
+            </div>
+            <img src="images/atv.jpg" alt="atv">
+        </div>
+        <div class="scooterdiv">
+            <h2>Jeep Rentals</h2>
+            <div class="scooterinfo">
+                <ul>
+                    <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                    <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                </ul>
+            </div>
+            <img src="images/jeep.jpg" alt="jeep">
+        </div>
         <article>
             <h2>General Rental Information</h2>
             <img src="#" alt="">
             <div class="rentallist">
                 <ul>
-                <li>A $50 security deposit is required to confirm reservations.</li>
-                <li>A valid drivers license is required in hand at time of rental.</li>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at time of rental.</li>
                     <li>No one under 12 years of age are allowed to ride on the scooters.</li>
                     <li>Fuel charge not included.</li>
                     <li>Unlimited mileage.</li>
                     <li>Liability insurance is free of charge.</li>
                     <li> Reservations rate requires 24 hour prior notification.</li>
-                   <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                    <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
                     <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
                     <li>Rentals may be returned to either location.</li>
-                    
-               </ul>
+                </ul>
             </div>
         </article>
-        
-
+        <table class="prices">
+            <thead>
+                <tr>
+                    <th>Price Chart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="2">Reservation</th>
+                    <th colspan="2">Walk-In</th>
+                </tr>
+                <tr>
+                    <th>Rental Type</th>
+                    <th>Max Persons</th>
+                    <th>Half Day (3 hrs)</th>
+                    <th>Full Day</th>
+                    <th>Half Day (3 hrs)</th>
+                    <th>Full Day</th>
+                </tr>
+                <tr>
+                    <td>~Honda Metro Scooter</td>
+                </tr>
+                <tr>
+                    <td>~Honda Dio Scooter</td>
+                </tr>
+                <tr>
+                    <td>~Honda PCX150 Scooter</td>
+                </tr>
+                <tr>
+                    <td>Honda Pioneer ATV</td>
+                </tr>
+                <tr>
+                    <td>Jeep Wrangler 4-door ATV</td>
+                </tr>
+                <tr>
+                    <td>Jeep Wrangler 2-door</td>
+                </tr>
+            </tbody>
+        </table>
         <div class="contact">
             <h2>Contact information</h2>
             <div class="address">
@@ -106,7 +143,7 @@
                 <p>&#9993; email@scootsrentals.com</p>
             </div>
         </div>
-    </div>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> ~Scoots Rentals | Raul Garcia | Updated: <span id="last-updated"></span> | <a
@@ -115,9 +152,7 @@
             <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook logo"></a>
             <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
             <a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube logo"></a>
-
         </div>
-
     </footer>
     <script src="js/date.js"></script>
     <script src="js/currentyear.js"></script>
