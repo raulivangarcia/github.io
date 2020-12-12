@@ -204,15 +204,15 @@ article img {
 	margin: 0 auto;
 }
 .cardscontainer {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 10px;
-	margin-bottom: 15px;
+	display: block;
+	
 }
 .card1, .card2, .card3, .card4 {
 	border: 1px solid #333;
-	box-shadow: 0 0 5px rgb(71, 71, 71);
 	padding: 10px;
+}
+.card4 {
+	margin-bottom: 15px;
 }
 .cardscontainer img {
 	max-width: 250px;
