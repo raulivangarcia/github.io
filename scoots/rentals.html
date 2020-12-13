@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="01width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Rental company for scooters and ATVs">
     <title>~Scoots Rental Company | Cozumel, Mexico</title>
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -14,12 +14,8 @@
 </head>
 <body>
     <header>
-        <div>
-            <!-- <img class="logo" src="images/cozumelheader.jpg" alt="signs on beach"> -->
-            <div class="headings">
-                <h1>~Scoots</h1>
-                <h2>Where the fun starts!</h2>
-            </div>
+        <div class="logo">
+            <img src="images/scootslogo.png" alt="signs on beach">
         </div>
     </header>
     <nav>
@@ -92,7 +88,7 @@
         <table class="prices">
             <thead>
                 <tr>
-                    <th>Price Chart</th>
+                    <th colspan="6">Price Chart</th>
                 </tr>
             </thead>
             <tbody>
@@ -104,28 +100,57 @@
                 <tr>
                     <th>Rental Type</th>
                     <th>Max Persons</th>
-                    <th>Half Day (3 hrs)</th>
+                    <th>Half Day <br>(3 hrs)</th>
                     <th>Full Day</th>
-                    <th>Half Day (3 hrs)</th>
+                    <th>Half Day <br>(3 hrs)</th>
                     <th>Full Day</th>
                 </tr>
                 <tr>
                     <td>~Honda Metro Scooter</td>
+                    <td id="max1"></td>
+                    <td id="rhalfday1"></td>
+                    <td id="rfullday1"></td>
+                    <td id="halfday1"></td>
+                    <td id="fullday1"></td>
                 </tr>
                 <tr>
                     <td>~Honda Dio Scooter</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>~Honda PCX150 Scooter</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Honda Pioneer ATV</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Jeep Wrangler 4-door ATV</td>
+                    <td>Jeep Wrangler 4-door ATV</td><td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Jeep Wrangler 2-door</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
@@ -162,6 +187,7 @@
     <script src="js/weatherapi.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/alert.js"></script>
 </body>
 
 </html>

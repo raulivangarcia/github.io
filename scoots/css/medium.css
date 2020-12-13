@@ -14,26 +14,27 @@
 .navigation li:first-child {
     display: none;
 }
-table {
+.forecast table {
 	display: flex;
 	justify-content: center;
-	width: 500px;
+	width: 300px;
 	margin: auto;
-	background-color: #f8c295;
+	background-color: #FFCF6C;
 	border: 1px solid #333;
 	border-spacing: 5px;
 	font-family:  'heebo', serif;
 }
+
 td {
 	text-align: center;
 }
 .forecast img {
 	width: 70px;
 }
-/* .weathersummary {
-    width: 500px;
+.weathersummary {
+    width: 300px;
     margin: 0 auto 20px auto;
-} */
+}
 .weathercontactcontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -125,4 +126,12 @@ td {
 .scooterdiv h2 {
 	margin: 10px auto 0 auto;
 }
+.forecast td, th {
+	border: none;
+}
+.price td, th {
+	border: 1px solid #333;
+}
+
+
 }
