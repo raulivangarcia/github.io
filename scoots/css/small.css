@@ -78,7 +78,7 @@ nav ul li.active a {
 ul {
 	font-family: 'Heebo', sans-serif;
 }
-/* button over picture */
+
 .hero-ph img {
 	width: 100%;
 }
@@ -109,19 +109,16 @@ ul {
 
 footer {
 	background-color: #008b8b;
-	display: grid;
-	grid-template-columns: 1fr 200px;
+	display: block;
+	
 }
-.social {
-	grid-column: 2;
-	padding-top: 10px;
-}
+
 footer a {
-	text-align: center;
+	
 	color: black;
 }
 footer a:visited {
-	text-align: center;
+	
 	color: black;
 }
 .address img {
@@ -230,11 +227,17 @@ article img {
 }
 .cardscontainer img {
 	width: 100%;
-	/* max-width: 250px; */
+}
+.cardscontainer a {
+	color:  #008b8b;
+}
+.cardscontainer a:visited {
+	color: #faad12;
 }
 /* contact form */
 fieldset {
-	max-width: 550px;
+	width: 550px;
+	max-width: 100%;
 	margin: 0 auto 25px auto;
 	border: none;
 	background-color:  #e0ffff;
@@ -282,7 +285,7 @@ label {
 }
 .check {
 	display: flex;
-	justify-content: ;
+	
 	margin: .5rem;
 }
 .check input {
