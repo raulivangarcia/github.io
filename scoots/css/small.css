@@ -23,13 +23,6 @@ header img {
 	
 }
 
-.headings h2  {
-	font-size: 1.6rem;
-    color: #ff1c9c;
-}
-.headings h1{
-	color: #ff1c9c;
-}
 h1, h2, h3, h4 {
 	font-family: 'Lora', serif;
     text-align: center;
@@ -89,53 +82,17 @@ ul {
 .hero-ph img {
 	width: 100%;
 }
-/* .book{
-	position: relative;
-	
-}
-.book .btn {
-	position: absolute;
-	bottom:4em;
-	right:4em;
-	background-color:#8F0005;
-	border-radius:1em;
-	color:white;
-	text-transform:uppercase;
-	padding:1em 1.5em;
-}
-.book .btn:hover {
-	background-color: black;
-} */
 
-/* .main-hero-container {
-	position: relative;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-}
-.main-hero {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-} */
 .book-btn {
-		position: relative;
-		width: 200px;
-		bottom: 75px;
-		left: 70%;
-		right: 20%;
-		text-align: center;
-		background-color: #008b8b;
-		/* background-image: -webkit-linear-gradient(top, #2fa9eb, #2980b9);
-  background-image: -moz-linear-gradient(top, #2fa9eb, #2980b9);
-  background-image: -ms-linear-gradient(top, #2fa9eb, #2980b9);
-  background-image: -o-linear-gradient(top, #2fa9eb, #2980b9);
-  background-image: linear-gradient(to bottom, #2fa9eb, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28; */
-  border-radius: 28px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+	margin: 10px auto;
+	width: 200px;
+	text-align: center;
+	background-color: #008b8b;
+	border-radius: 28px;
+ 	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+  
 }
 .book-btn a:link, .book-btn a:visited {
 	color:#FFCF6C;
@@ -300,7 +257,7 @@ input[type="submit"] {
   	text-align: center;
   	width: 50%;
   	background: #008b8b;
-  	color: black;
+  	color:#FFCF6C;
   	text-transform: uppercase;
   	letter-spacing: 2px;
   	font-weight: bold;
@@ -323,13 +280,21 @@ label {
 	padding-top: 10px;
 	padding-left: 15px;
 }
-/* .check-box {
-	
+.check {
+	display: flex;
+	justify-content: ;
+	margin: .5rem;
 }
-.agree {
-	text-align: center;
-} */
-
+.check input {
+	margin: 0 0 0 5px;
+}
+.check a {
+	padding-top: 10px;
+	padding-left: 5px;
+	text-decoration: none;
+	color: rgb(100, 98, 98);
+	font-family: 'Heebo', sans-serif; 
+}
 
 /* rental page info */
 .scooterdiv {

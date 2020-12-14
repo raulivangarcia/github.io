@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="images/scootslogo.png" alt="signs on beach">
+            <img src="images/scootslogo.png" alt="scoots logo">
         </div>
     </header>
 
@@ -74,7 +74,7 @@
                 <input id="email" name="email" placeholder="Email">
                 <!-- Form phone number -->
                 <label for="phone"></label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone"
+                <input type="tel" id="phone" name="phone"  placeholder="Phone"
                     required>
                 <label for="state"></label>
                 <input type="text" id="state" name="state" pattern="[A-Za-z\s]{2,}" minlength="2"
@@ -85,9 +85,10 @@
                 <label for="comments"></label>
                 <textarea id="comments" name="commentsbox" rows="5" cols="33"
                     placeholder="Special Acommodations/Comments"></textarea>
-                    <label for="check-box"> I agree to the</label> <a href="agreement.html">rental agreement</a></label>
-                    <input type="checkbox" id="check-box" name="check-box" required> 
-                    
+                    <div class="check">
+                    <input type="checkbox" id="check-box" name="check-box" required>
+                    <label for="check-box"> I agree to the</label> <a href="agreement.html">rental agreement</a></label> 
+                    </div>
                 <!-- submit button -->
                 <input type="submit" value="Submit">
             </fieldset>
