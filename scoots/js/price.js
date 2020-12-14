@@ -11,10 +11,10 @@ fetch(pricesAPI)
      
     jsObject.forEach(x => {
              
-      document.getElementById(`dayofweek${day+1}`).textContent = week[d.getDay()];
-      document.getElementById(`forecast${day+1}`).textContent = x.main.temp.toFixed(0) + `°F`;
-      document.getElementById(`icon${day+ 1}`).setAttribute('src', image);
-      document.getElementById(`icon${day+ 1}`).setAttribute('alt', desc);
-      day++;
+      document.getElementById(`max${+1}`).textContent = x.rental.maxpersons;
+      document.getElementById(`rhalfday${+1}`).textContent = x.rental.rhalfday;
+      document.getElementById(`rfullday${+1}`).textContent = x.rental.rfullday;
+      document.getElementById(`halfday${+1}`).textContent = x.rental.halfday;
+      document.getElementById(`fullday${+1}`).textContent = x.rental.fullfday;
        }) 
 });

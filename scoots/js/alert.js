@@ -5,5 +5,6 @@ fetch(apiURL)
 .then((jsObject) => {
   console.log(jsObject);
 
-  document.getElementById('message').textContent = jsObject.main.temp;
+  document.getElementById('message').textContent = jsObject.alerts.description;
   
+});

@@ -6,7 +6,7 @@
             "rhalfday": "$20",
             "rfullday": "$30",
             "halfday": "$25",
-            "fullday": "35"
+            "fullday": "$35"
         },
         {
             "rentaltype": "~Honda Dio Scooter",
@@ -14,7 +14,7 @@
             "rhalfday": "$30",
             "rfullday": "$40",
             "halfday": "$35",
-            "fullday": "45"
+            "fullday": "$45"
         },
         {
             "rentaltype": "~Honda PCX150 Scooter",
