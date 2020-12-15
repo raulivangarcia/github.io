@@ -110,16 +110,17 @@ ul {
 footer {
 	background-color: #007777;
 	display: block;
+	color: white;
 	
 }
 
 footer a {
 	
-	color: black;
+	color:white;
 }
 footer a:visited {
 	
-	color: black;
+	color: white;
 }
 .address img {
 	height: 30px;

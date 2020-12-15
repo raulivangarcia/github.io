@@ -5,6 +5,16 @@ fetch(apiURL)
 .then((jsObject) => {
   console.log(jsObject);
 
-  document.getElementById('message').textContent = jsObject.alerts.description;
+  if (jsObject.alerts && jsObject.alerts.length >0) {
+    document.getElementById('message').textContent = jsObject.alerts[0].description;
+    
+    
+  }  
   
 });
+// function myFunction() {
+  //     var btn = document.createElement("button");
+  //     btn.innerHTML = "CLOSE";
+  //     document.body.appendChild(btn);
+  //   } 
+  

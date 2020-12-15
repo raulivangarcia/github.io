@@ -1,4 +1,4 @@
-const pricesAPI = `https://github.com/raulivangarcia/raulivangarcia.github.io/blob/master/scoots/json/rental.json`;
+const pricesAPI = `./json/rental.json`;
 
 
 //prices
@@ -9,12 +9,12 @@ fetch(pricesAPI)
 .then((jsObject) => {
   console.log(jsObject);
      
-    jsObject.forEach(x => {
+    jsObject.rental.forEach((x, i) => {
              
-      document.getElementById(`max${+1}`).textContent = x.rental.maxpersons;
-      document.getElementById(`rhalfday${+1}`).textContent = x.rental.rhalfday;
-      document.getElementById(`rfullday${+1}`).textContent = x.rental.rfullday;
-      document.getElementById(`halfday${+1}`).textContent = x.rental.halfday;
-      document.getElementById(`fullday${+1}`).textContent = x.rental.fullfday;
+      document.getElementById(`max${i}`).textContent = x.maxpersons;
+      document.getElementById(`rhalfday${i}`).textContent = x.rhalfday;
+      document.getElementById(`rfullday${i}`).textContent = x.rfullday;
+      document.getElementById(`halfday${i}`).textContent = x.halfday;
+      document.getElementById(`fullday${i}`).textContent = x.fullday;
        }) 
 });
