@@ -87,7 +87,7 @@ ul {
 	margin: 10px auto;
 	width: 200px;
 	text-align: center;
-	background-color: #008b8b;
+	background-color: #007777;
 	border-radius: 28px;
  	padding: 10px 20px 10px 20px;
 	text-decoration: none;
@@ -95,9 +95,9 @@ ul {
   
 }
 .book-btn a:link, .book-btn a:visited {
-	color:#FFCF6C;
+	color: white;
 	text-decoration: none;
-	background-color: #008b8b;
+	background-color: #007777;
 }
 
 
@@ -108,7 +108,7 @@ ul {
 
 
 footer {
-	background-color: #008b8b;
+	background-color: #007777;
 	display: block;
 	
 }
@@ -229,7 +229,7 @@ article img {
 	width: 100%;
 }
 .cardscontainer a {
-	color:  #008b8b;
+	color:  #007777;
 }
 .cardscontainer a:visited {
 	color: #fdab07;
@@ -259,8 +259,8 @@ input[type="submit"] {
   	padding: 10px;
   	text-align: center;
   	width: 50%;
-  	background: #008b8b;
-  	color:#FFCF6C;
+  	background: #007777;
+  	color:white;
   	text-transform: uppercase;
   	letter-spacing: 2px;
   	font-weight: bold;

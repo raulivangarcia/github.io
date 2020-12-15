@@ -130,7 +130,7 @@ td {
 	border: none;
 }
 footer {
-	background-color: #008b8b;
+	background-color: #007777;
 	display: grid;
 	grid-template-columns: 1fr 200px;
 }
