@@ -235,6 +235,7 @@ article img {
 .cardscontainer a:visited {
 	color: #fdab07;
 }
+
 /* contact form */
 fieldset {
 	width: 550px;
@@ -333,3 +334,9 @@ label {
 .prices table, .prices td, .prices th {
 	border: 1px solid #333;
 }
+#message {
+	background-color: #FFCF6C;
+}
+/* .hidden {
+	display: none;
+} */
