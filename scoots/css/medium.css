@@ -105,6 +105,7 @@ td {
 .scooterdiv {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 75px 1fr;
 	grid-column-gap: 15px;
 	background-color: #e0ffff;
 	max-width: 960px;
@@ -121,9 +122,6 @@ td {
 }
 .scooterinfo {
 	grid-column: 1;
-}
-.scooterdiv h2 {
-	margin: 10px auto 0 auto;
 }
 
 .forecast td, .forecast th {

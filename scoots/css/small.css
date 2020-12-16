@@ -312,12 +312,15 @@ label {
 .scooterdiv img {
 	width: 100%;
 }
-
 .scooterdiv h2 {
 	margin: 10px auto 0 auto;
 }
 .scooterdiv ul {
 	list-style-type: none;
+	padding-top: 20px;
+}
+.scooterdiv li {
+	padding-left: 10px;
 }
 .prices {
 	width: 500px;
