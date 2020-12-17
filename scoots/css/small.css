@@ -1,5 +1,5 @@
 /*Small phone view************/
-#38c3c3, #66ffe4, #befff5, #ff1c9c,#ff94e0
+
 main {
 	max-width: 960px;
 	margin: 0 auto;
@@ -323,9 +323,8 @@ label {
 .scooterdiv h2 {
 	margin: 10px auto 0 auto;
 }
-.scooterdiv ul {
-	list-style-type: none;
-	padding-top: 20px;
+.scooterinfo p {
+	padding: 0 15px;
 }
 .prices {
 	width: 500px;
@@ -339,7 +338,16 @@ label {
 .prices table, .prices td, .prices th {
 	border: 1px solid #333;
 }
-.contactmap iframe {
-	max-width: 100%;
-	margin: 0 auto;
+.contactmap {
+	display: flex;
+	justify-content: center;
 }
+.book-btn {
+	animation-name: example;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+@keyframes example {
+	from {left: 0px;}
+	to {right: 200px; background-color:white;}
+  }
