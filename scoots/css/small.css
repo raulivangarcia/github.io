@@ -175,6 +175,13 @@ td, th {
 .forecast img {
 	width: 70px;
 }
+#message {
+	background-color: #FFCF6C;
+	font-family: 'heebo', serif;
+}
+#alertcontainer {
+	visibility: hidden;
+}
 .rentaldiv {
 	display: block;
 	background-color: #e0ffff;
@@ -329,14 +336,13 @@ label {
 	background-color: #FFCF6C;
 	border: 1px solid #333;
 	border-spacing: 5px;
-	font-family:  'heebo', serif;border-collapse: collapse;
+	font-family:  'heebo', serif;
+	border-collapse: collapse;
 }
 .prices table, .prices td, .prices th {
 	border: 1px solid #333;
 }
-#message {
-	background-color: #FFCF6C;
+.contactmap iframe {
+	max-width: 100%;
+	margin: 0 auto;
 }
-/* .hidden {
-	display: none;
-} */

@@ -1,8 +1,5 @@
 function weathergone() {
-var off = document.getElementById('message');
-off.remove();
 
+document.getElementById('alertcontainer').style.visibility='hidden';
 }
-function buttongone() {
-    var gone = document.getElementById("close").style.display="none";
-}
+
